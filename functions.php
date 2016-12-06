@@ -22,8 +22,8 @@ if (!function_exists('ohmprof_theme_setup')) {
 
     // -- This theme uses wp_nav_menu() in two locations.
     register_nav_menus(array(
-        'primary' => __('Primary Menu', 'befootec_v4'),
-        'social' => __('Social Links Menu', 'befootec_v4'),
+        'primary' => __('Primary Menu', 'ohmprofessional'),
+        'secondary' => __('Secondary Menu', 'ohmprofessional'),
     ));
 
     // -- enable support for post formats (https://codex.wordpress.org/Post_Formats)
@@ -32,6 +32,6 @@ if (!function_exists('ohmprof_theme_setup')) {
     ));
   }
 
-  
+
   add_action('after_setup_theme', 'ohmprof_theme_setup');
 }
