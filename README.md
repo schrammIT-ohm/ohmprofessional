@@ -1,6 +1,6 @@
 # ohmprofessional - wordpress theme
 
-TODO: Write a project description - schiub
+TODO: Write a project description
 
 ## Installation
 
