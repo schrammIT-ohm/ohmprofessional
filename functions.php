@@ -32,6 +32,37 @@ if (!function_exists('ohmprof_theme_setup')) {
     ));
   }
 
-
   add_action('after_setup_theme', 'ohmprof_theme_setup');
 }
+
+
+function ohmprofessional_scripts() {
+
+  $template_url = get_template_directory_uri();
+
+  if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
+
+      // ------------------------
+      // --- CSS
+
+      // --- bootstrap
+      wp_enqueue_style('boostrap', $template_url.'/css/bootstrap.min.css');
+
+      // --- basic theme style
+      wp_enqueue_style('ohmprofessional-style', get_stylesheet_uri());
+
+
+      // ------------------------
+      // --- JS
+
+      // - Jquery (footer but always first)
+      wp_deregister_script('jquery'); // deregister jquery, otherwise it will be loaded from wordpress-core (including jquery-migrate)
+      wp_register_script('jquery', $template_url.'/js/jquery-3.1.1.min.js', array(), '3.1.1', true);
+      wp_enqueue_script('jquery'); // Enqueue it!
+
+      wp_register_script('bootstrap', $template_url.'/js/bootstrap.min.js', array(), '3.3.7', true);
+      wp_enqueue_script('bootstrap'); // Enqueue it!
+
+  }
+}
+add_action('wp_enqueue_scripts', 'ohmprofessional_scripts');
