@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-  <h1>Hallo Welt Test Leupold Nummer 2</h1>
-<p>Dies ist der erste Paragraph. Dieser Teckst ist valsch</p>
+  <h1>Hallo Welt Test Leupsfdsfgraph. Dieser Teckst ist valsch</p>
+<span>Ich bin auch eine änderung</span>
 <?php get_footer(); ?>
