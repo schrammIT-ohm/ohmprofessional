@@ -46,7 +46,8 @@ function ohmprofessional_scripts() {
       // --- CSS
 
       // --- bootstrap
-      wp_enqueue_style('boostrap', $template_url.'/css/bootstrap.min.css');
+      wp_register_style('boostrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.7', 'all');
+      wp_enqueue_style('boostrap'); // Enqueue it!
 
       // --- basic theme style
       wp_enqueue_style('ohmprofessional-style', get_stylesheet_uri());
