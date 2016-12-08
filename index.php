@@ -2,5 +2,5 @@
 
   <h1>Hallo Welt</h1>
   <p>Schubidu</p>
-  <p>irgendein Dreck</p>
+  <p>Hallo</p>
 <?php get_footer(); ?>
