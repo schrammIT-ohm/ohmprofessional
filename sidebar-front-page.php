@@ -1,7 +1,10 @@
 <aside class="front-page">
-  <!-- Suche -->
-  <?php get_search_form(); ?>
-  <!-- /Suche -->
+  <?php
+    // =======================================================================//
+    // ! Suche
+    // =======================================================================//
+    get_search_form();
+  ?>
 
   <?php
     // =======================================================================//
@@ -15,23 +18,49 @@
     );
     $seminare = new WP_Query( $args );
 
-    // -- nothing found, return false;
-    if (!have_posts()) {
-      return false;
-    }
    ?>
+   <?php if($seminare->have_posts()): ?>
+     <h2>Seminare</h2>
+     <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
+        <a href="<?php the_permalink(); ?>">
+          <h3><?php echo get_the_title();  ?></h3>
+        </a>
 
-   <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
-      <a href="<?php the_permalink(); ?>">
-        <h2><?php echo get_the_title();  ?></h2>
-      </a>
-
-    <?php endwhile; ?>
-    <?php wp_reset_postdata(); ?>
+      <?php endwhile; ?>
+      <?php wp_reset_postdata(); ?>
+    <?php endif; ?>
 
 
+  <?php
+    // =======================================================================//
+    // ! Posts
+    // =======================================================================//
+
+    // -- Get last 3 Posts
+    $posts_per_page = 3;
+    $args = array(
+      'posts_per_page' => $posts_per_page
+    );
+    $posts = new WP_Query( $args );
+
+  ?>
+  <?php if($posts->have_posts()): ?>
+    <h2>Blog Meldungen</h2>
+    <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
+       <a href="<?php the_permalink(); ?>">
+         <h3><?php echo get_the_title();  ?></h3>
+       </a>
+
+     <?php endwhile; ?>
+     <?php wp_reset_postdata(); ?>
+  <?php endif; ?>
 
 
+  <?php
+      // =======================================================================//
+      // ! Widget Area
+      // =======================================================================//
+  ?>
   <?php if (is_active_sidebar('sidebar-frontpage')) : ?>
       <!-- Widget-Area -->
       <div id="widget-area" class="widget-area">
