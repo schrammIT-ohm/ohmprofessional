@@ -10,6 +10,7 @@ TODO: Write a project description
 3. Führe den Befehl in der git-bash aus: `git clone https://github.com/schrammIT-ohm/ohmprofessional.git`
   1. nun wird das repository in das Verzeichnis `../htdocs/wordpress/wp-content/themes/ohmprofessional` heruntergeladen
 4. Öffne das neue Verzeichnis `ohmprofessional` im "Atom" (oder einer IDE deiner Wahl)
+  1. in git-bash: wechsel in das ohmprofessional verzeichnmiz mittels: `cd ohmpreofessional` 
 5. Erstelle einen neuen branch
   1. über git-bash: `git checkout -b <branchName>` (<branchName> z.B. Nachname + V1)
   2. über atom mit git plus package: `Checkout New Branch`
