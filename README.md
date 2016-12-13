@@ -27,19 +27,22 @@ TODO: Write a project description
 ## History
 
 ### 13.12.2016
-- new .gitignore: ignore `node_modules` on git commit
-- new 404.php: FehlerSeite für invalide URLs
-- new front-page.php: Template File for Landing Page (FullScreen Layout with FullScreenBackground)
-- new gulpfile.js: Taskrunner (browserSync + LessCompiler ...) -> run with `gulp watch`
-- new package.json: NPM installer für TaskRunner (terminal: `npm install` in this folder)
-- new searchform.php: SearchForm for searching - atm: used in sidebar-front-page.php
-- new sidebar-front-page.php: right sidebar on front-page
-- new /img: includes logo and backgroundImage
-- new /less: used for writing less instead of css (needs `gulp watch` running)
 
-- updated style.css: (contains basic css for front-page)
-- updated functions.php: WidgetArea für Sidebar; CustomPost Type
-- updated header.php: removed `<header>` tag
+#### new
+- .gitignore: ignore `node_modules` on git commit
+- 404.php: FehlerSeite für invalide URLs
+- front-page.php: Template File for Landing Page (FullScreen Layout with FullScreenBackground)
+- gulpfile.js: Taskrunner (browserSync + LessCompiler ...) -> run with `gulp watch`
+- package.json: NPM installer für TaskRunner (terminal: `npm install` in this folder)
+- searchform.php: SearchForm for searching - atm: used in sidebar-front-page.php
+- sidebar-front-page.php: right sidebar on front-page
+- /img: includes logo and backgroundImage
+- /less: used for writing less instead of css (needs `gulp watch` running)
+
+#### updated
+- style.css: (contains basic css for front-page)
+- functions.php: WidgetArea für Sidebar; CustomPost Type
+- header.php: removed `<header>` tag
 
 ## Credits
 
