@@ -2,15 +2,7 @@
 
 TODO: Write a project description
 
-## Installation
-
-TODO: Describe the installation process
-
-## Usage
-
-TODO: Write usage instructions
-
-## Windows
+## Installation - Windows
 
 1. Wechsel im Explorer in das theme-Verzeichnis deiner Wordpress Installation
   1.  z.B: `C:/MAMP/htdocs/wordpress/wp-content/themes`
@@ -33,7 +25,20 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+### 13.12.2016
+- new .gitignore: ignore `node_modules` on git commit
+- new 404.php: FehlerSeite für invalide URLs
+- new front-page.php: Template File for Landing Page (FullScreen Layout with FullScreenBackground)
+- new gulpfile.js: Taskrunner (browserSync + LessCompiler ...) -> run with `gulp watch`
+- new package.json: NPM installer für TaskRunner (terminal: `npm install` in this folder)
+- new searchform.php: SearchForm for searching - atm: used in sidebar-front-page.php
+- new sidebar-front-page.php: right sidebar on front-page
+- new /img: includes logo and backgroundImage
+- new /less: used for writing less instead of css (needs `gulp watch` running)
+
+- updated style.css: (contains basic css for front-page)
+- updated functions.php: WidgetArea für Sidebar; CustomPost Type
+- updated header.php: removed `<header>` tag
 
 ## Credits
 
