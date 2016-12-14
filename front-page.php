@@ -28,12 +28,11 @@
             <li> <a href="https://www.facebook.com/"
               target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt="" /></a></li>
               <li><a href="https://twitter.com/?lang=de"
-                target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt="" </a></li>
+                target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt="" /></a></li>
             <li> <a href="https://www.xing.com/?ace=sem6ef37eae"
               target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png" alt="" /></a></li>
             <li> <a href="https://www.linkedin.com/"
-              target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_linked_in-128.png" alt="" </a></li>
-
+              target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_linked_in-128.png" alt="" /></a></li>
           </ul>
         </div>
       </header>
@@ -41,7 +40,7 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer><ul>
+      <footer><ul class="list-inline pull-left">
         <li>Impressum</li>
         <li>Datenschutz</li>
         <li>AGB</li>
