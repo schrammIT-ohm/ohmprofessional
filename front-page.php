@@ -12,8 +12,7 @@
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
     <div class="home-content">
-      <header>
-        <div class="row">
+      <header class="row">
           <div class="col-sm-2">
             <?php
               // --- Logo
@@ -23,8 +22,13 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10"></div>
-        </div>
+          <div class="col-sm-10">
+            <ul class="list-inline pull-right social-list">
+              <li><a href="https://www.facebook.com" target="_blank"><img src="/wordpress/wp-content/themes/ohmprofessional/img/facebook.svg" alt="" /></a></li>
+              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
+            </ul>
+          </div>
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
