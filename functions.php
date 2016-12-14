@@ -107,7 +107,7 @@ function create_post_type()
         'name' => __('Seminare'),
         'singular_name' => __('Seminar'),
         'add_new_item' => 'Neues Seminar erstellen',
-        'edit_item' => 'Seminar berarbeiten',
+        'edit_item' => 'Seminar bearbeiten',
         'new_item' => 'Neues Seminar',
       ),
       'menu_icon' => 'dashicons-welcome-learn-more', //https://developer.wordpress.org/resource/dashicons/#media-default
