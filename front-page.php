@@ -24,7 +24,7 @@
           </div>
           <div class="col-sm-10">
             <ul class="list-inline pull-right social-list">
-              <li><a href="https://www.facebook.com" target="_blank"><img src="/wordpress/wp-content/themes/ohmprofessional/img/facebook.svg" alt="" /></a></li>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
               <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
               <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
             </ul>
