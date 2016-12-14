@@ -69,4 +69,13 @@ Home Page only (FullScreen Layout)
   content: '';
 }
 
+.list-inline {
+  color: red;
+  font-size: 20px;
+}
+
+.social-icons img{
+  max-height: 40px;
+  margin: 30px;
+}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
