@@ -12,18 +12,22 @@
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
     <div class="home-content">
-      <header>
-        <div class="row">
-          <div class="col-sm-2">
+      <header class="row">
+        <div class="col-sm-2">
             <?php
               // --- Logo
               // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
               // otherwise use default Logo from ../img/...
-              $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
-            ?>
+              $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
-          </div>
-          <div class="col-sm-10"></div>
+        </div>
+        <div class="col-sm-10">
+          <ul class="list-inline pull-right social-list" >
+            <li><a href="https://www.facebook.com/" target="_blank">
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/online_social_media_facebook-128.png" alt="" />Facebook</a></li>
+            <li><a href="https://www.xing.com/" target="_blank">Xing</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+          </ul>
         </div>
       </header>
       <main>

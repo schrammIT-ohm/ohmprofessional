@@ -69,4 +69,7 @@ Home Page only (FullScreen Layout)
   content: '';
 }
 
+.social-list img{
+  height: 50px;
+}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
