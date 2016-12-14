@@ -1,6 +1,11 @@
 # ohmprofessional - wordpress theme
 
-TODO: Write a project description
+Ohm Professional Landing Page:
+Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage entstehen, die sowohl statische Elemente wie zentraler Inforaum mit Werbe-Sprüchen/Keymessage sowie in Menüpunkten Informationen zum Studienprogramm, Termine, Ansprechpartner, Links zu Modulen/Anrechenbarkeit etc. enthalten soll. 
+
+# Wichtige Links (Anforderung + Konzeption)
+- Trello Board: https://trello.com/b/P1Ey6F0C/ohm-professional-school-landing-page
+- Anforderung: https://usecanvas.com/mirko/ia-ohm-professional-school-landingpage/3vm1xzXO5oJrSepcyU3Yzl
 
 ## Installation - Windows
 
