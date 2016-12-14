@@ -24,10 +24,10 @@
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
           <div class="col-sm-10">
-            <ul class="list-inline pull-right">
-              <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-              <li><a href="https://www.xing.com" target="_blank">Xing</a></li>
-              <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <ul class="list-inline pull-right social-icons">
+              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/facebook.png" alt="Facebook"></a></li>
+              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/xing.png" alt="Xing"></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/twitter.png" alt="Twitter"></a></li>
             </ul>
           </div>
         </div>
