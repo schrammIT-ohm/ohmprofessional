@@ -23,14 +23,28 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10"></div>
+          <div class="col-sm-10">
+          <ul class="list-inline text-right">
+            <li><a href="https://de-de.facebook.com/" target="_blank">
+              <img src="<?php echo get_bloginfo('template_directory')?>/img\online_social_media_facebook128.png" alt=""></a></li>
+            <li><a href="https://www.xing.com/" target="_blank">Xing</a></li>
+            <li><a href="https://twitter.com/?lang=de" target="_blank">Twitter</a></li>
+          </ul>
+          </div>
         </div>
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer></footer>
+      <footer>
+        <ul class="list-inline">
+          <li>Impressum</li>
+          <li>Datenschutz</li>
+          <li>AGB</li>
+          <li>Kontakt</li>
+        </ul>
+      </footer>
     </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
