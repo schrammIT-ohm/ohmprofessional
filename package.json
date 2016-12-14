@@ -1,0 +1,27 @@
+{
+  "name": "ohmprofessional",
+  "version": "0.0.1",
+  "author": "Mirko Schramm <info@schrammit.de>",
+  "homepage": "http://www.schrammit.de",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-clean-css": "^2.2.1",
+    "gulp-concat": "latest",
+    "gulp-less": "latest",
+    "gulp-rename": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-uncss": "latest",
+    "gulp-watch": "latest"
+  }
+}
