@@ -10,11 +10,11 @@
 
 <?php get_header(); ?>
   <!-- FullScreen Wrapper: content + aside -->
-  <div class="fullscreen-wrapper">
-    <div class="home-content">
+  <div class="fullscreen-wrapper"> <!--äußerer Kontainer: besteht aus zwei Bereichen: Hautseite und Sidebar -->
+    <div class="home-content"> <!--erster Bereich: Die Hauptseite -->
       <header>
         <div class="row">
-          <div class="col-sm-2">
+          <div class="col-sm-2"> <!--Hier liegt das Logo, das links oben auf der Seite erscheint -->
             <?php
               // --- Logo
               // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
@@ -23,7 +23,24 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10"></div>
+          <div class="col-sm-10"><!--hier müssen die social-links rein! Liste mit drei Listenelementen, die nebeneinander liegen -->
+            <!--ul -> 1.li -> 2.li->3.li und danach geht die ul wieder zu-->
+           <ul class="list-inline pull-right social-icons">
+             <li> <a href="https://www.facebook.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory')?> \img\online_social_media_facebook-128.png" alt="facebook-icon"  />
+             </a> </li>
+             <li><a href="https://www.twitter.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory') ?> \img\1481745744_twitter_online_social_media.png" alt="twitter-icon" />
+             </a></li>
+             <li><a href="https://www.xing.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory') ?> \img\social_media_logo_xing-128.png" alt="xing-icon"/>
+             </a></li>
+             <li><a href="https://www.linkedin.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory') ?> \img\online_social_media_linked_in-128.png" alt="linkedin-icon" />
+             </a></li>
+             <!--damit die liste horizontal erscheint:  -->
+           </ul>
+          </div>
         </div>
       </header>
       <main>
@@ -40,7 +57,7 @@
   <!-- /FullScreen Wrapper: content + aside -->
 
   <!-- FullScreen Image: image + gradient -->
-  <div class="bgimage-container gradient">
+  <div class="bgimage-container gradient"> <!-- -->
     <img src="<?php echo get_bloginfo('template_directory');?>/img/p_th_hochschulstandort_stadtansicht.jpg" alt="..">
   </div>
   <!-- /FullScreen Image: image + gradient -->
