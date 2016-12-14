@@ -23,7 +23,16 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10"></div>
+          <div class="col-sm-10">
+            <ul class="list-inline pull-right social-icons">
+              <li>
+
+                <a href="https://www.facebook.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt=""></a>
+              </li>
+              <li>Xing</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
         </div>
       </header>
       <main>
