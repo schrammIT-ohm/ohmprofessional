@@ -23,7 +23,13 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10"></div>
+          <div class="col-sm-10">
+            <ul class="list-inline" text-align="right">
+                <li> <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt="Facebook"></li></a>
+                <li> <a href="https://info.xing.com/lp/fb/?ace=sem6ef37eae" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png" alt="Xing"></li></a>
+                <li> <a href="https://twitter.com/">Twitter</li></a>
+            </ul>
+          </div>
         </div>
       </header>
       <main>
