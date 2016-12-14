@@ -29,6 +29,7 @@
               <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/xing.png" alt="Xing"></a></li>
               <li><a href="https://www.twitter.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/twitter.png" alt="Twitter"></a></li>
             </ul>
+              <p>jakobs Version</p>
           </div>
         </div>
       </header>
