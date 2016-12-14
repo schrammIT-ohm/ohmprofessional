@@ -14,7 +14,7 @@ var gulp = require('gulp'),
  *
  */
 var paths = {
-    browserSyncProxy: "http://localhost:8888/wordpress"
+    browserSyncProxy: "http://localhost/wordpress"
 };
 
 /**
