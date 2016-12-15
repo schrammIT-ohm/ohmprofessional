@@ -63,10 +63,28 @@ Home Page only (FullScreen Layout)
 .gradient:after {
   display: block;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   width: 100%;
   content: '';
+  background-image: linear-gradient(180deg, black 15%, transparent);
+
 }
 
+.header img {
+  padding-top: 20px;
+}
+
+.img-responsive {
+  padding-left: 20px;
+  height: 70px;
+}
+
+.social-list img {
+  height: 70px;
+}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
+
+.navbar {
+  
+}
