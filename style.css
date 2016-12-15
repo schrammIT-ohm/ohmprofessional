@@ -41,6 +41,35 @@ Home Page only (FullScreen Layout)
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.home-content h1 {
+  font-size: 41px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.home-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.uber {
+  background-color: rgba(39, 83, 143, 0.5);
+  padding: 15px;
+  display: inline-block;
+  margin-left: 42%;
+  text-align: center;
+}
+
+.uber:hover {
+  background-color: rgba(39, 83, 143, 0.7);
+}
+
+.home-content a {
+  color: white;
+}
+
 /* -- Fullscreen: https://css-tricks.com/perfect-full-page-background-image/#article-header-id-2 */
 .bgimage-container {
   position: fixed;
@@ -85,6 +114,21 @@ Home Page only (FullScreen Layout)
 }
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
 
-.navbar {
-  
+/* stolen from https://getbootstrap.com/examples/sticky-footer/sticky-footer.css*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+}
+
+.footer a {
+  color: white;
+  margin: 10px;
+}
+
+.footer:hover li {
+  color: blue;
 }
