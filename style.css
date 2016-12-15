@@ -69,11 +69,13 @@ Home Page only (FullScreen Layout)
   content: '';
 }
 .list-inline{
-color: red
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.social-icons{
-  max-height: 40px
+/* unvisited link */
+a:link {
+   color: white;
 }
-
-
-/*# sourceMappingURL=less/sourcemaps/style.css.map */
