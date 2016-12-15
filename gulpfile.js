@@ -23,10 +23,21 @@ var paths = {
  *  - compile Less on changing less files
  *  - reload all browser with browser sync
  */
+gulp.task("watch", ["browser-sync", "bs-reload"], function () {
+
+    // -- Compile less files And reload browser-sync everytime we saved a less change
+    gulp.watch(["*.css", "style.css"], ["bs-reload"]);
+
+    // -- reload browser-sync everytime we saved a php-file
+    gulp.watch(["*.php", "style.css"], ["bs-reload"]);
+
+});
+/**
+Original mit less-compiler. Entfernt weil's mir sonst die style.css zerschießt.
 gulp.task("watch", ["browser-sync", "compileLess", "bs-reload"], function () {
 
     // -- Compile less files And reload browser-sync everytime we saved a less change
-    gulp.watch(["less/**/*.less"], ["compileLess","bs-reload"]);
+  gulp.watch(["less/**//*.less"], ["compileLess","bs-reload"]);
 
     // -- reload browser-sync everytime we saved a php-file
     gulp.watch(["*.php", "style.css"], ["bs-reload"]);
@@ -54,7 +65,7 @@ gulp.task('bs-reload', function () {
  *
  * - creates sourcemaps
  */
-gulp.task('compileLess', function () {
+/**gulp.task('compileLess', function () {
     gulp.src('less/style.less', {base: "less"})
             .pipe(sourcemaps.init())
             .pipe(less())
