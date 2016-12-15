@@ -33,16 +33,19 @@
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
+        <div class="uber">
+          Über uns
+        </div>
+      </a>
       </main>
       <footer class="footer">
-        <div class="row">
           <ul class="list-inline navbar">
-            <li><a href="impressum.html">Impressum</a></li>
-            <li><a href="datenschutz.html">Datenschutz</a></li>
-            <li><a href="AGB.html">AGB</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/AGB.html">AGB</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
           </ul>
-        </div>
       </footer>
     </div>
 
