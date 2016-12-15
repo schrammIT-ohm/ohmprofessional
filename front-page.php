@@ -12,7 +12,7 @@
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
     <div class="home-content">
-      <header class="row">
+      <header class="row header">
           <div class="col-sm-2">
             <?php
               // --- Logo
@@ -34,7 +34,16 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer></footer>
+      <footer class="footer">
+        <div class="row">
+          <ul class="list-inline navbar">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+            <li><a href="AGB.html">AGB</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
