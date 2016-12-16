@@ -38,7 +38,6 @@
              <li><a href="https://www.linkedin.com" target="blank">
                <img src="<?php echo get_bloginfo('template_directory') ?> \img\online_social_media_linked_in-128.png" alt="linkedin-icon" />
              </a></li>
-             <!--damit die liste horizontal erscheint:  -->
            </ul>
           </div>
         </div>
@@ -46,8 +45,18 @@
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+        <a class="ghost-button-semi-transparent" href="more.php">Mehr erfahren</a>
       </main>
-      <footer></footer>
+      <footer>
+        <div class="impressum">
+        <ul class="list-inline pull-left">
+          <li><a href="impressum.php">Impressum</a></li>
+          <li><a href="datenschutz.php">Datenschutz</a></li>
+          <li><a href="agb.php">AGB</a></li>
+          <li><a href="kontakt.php">Kontakt</a></li>
+        </ul>
+      </div>
+      </footer>
     </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
@@ -63,3 +72,5 @@
   <!-- /FullScreen Image: image + gradient -->
 
 <?php get_footer(); ?>
+
+<!--wenn fertig: add all and commit und anschließend push!-->
