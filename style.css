@@ -109,8 +109,17 @@ Home Page only (FullScreen Layout)
   height: 70px;
 }
 
+.social-list {
+  padding-right: 30px;
+}
+
 .social-list img {
   height: 70px;
+  opacity: 0.9;
+}
+
+.social-list img:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
 
@@ -155,6 +164,32 @@ input[type=submit] {
     height: 50px;
     width: 50px;
     margin-left:40px;
+    opacity: 0.9;
+}
+
+input[type=submit]:hover {
+  opacity: 1;
+}
+
+/* Seminare */
+
+.seminar {
+  text-align: center;
+  color: white;
+}
+
+.seminar-wrapper {
+  margin-bottom: 50px;
+}
+
+.seminar-wrapper h3 {
+  font-size: 20px;
+}
+
+.seminar-wrapper-outer {
+  overflow-y: scroll;
+  position: relative;
+  display: inline-grid;
 }
 
 /*Wordpress-Posts*/
@@ -167,6 +202,7 @@ input[type=submit] {
 .post-bottom {
   position: absolute;
   bottom: 0;
+  display: block;
 }
 
 .post-wrapper:hover {
@@ -193,22 +229,4 @@ input[type=submit] {
 .front-page a:hover {
   text-decoration: none;
   color: black;
-}
-
-.seminar {
-  text-align: center;
-  color: white;
-}
-
-.seminar-wrapper {
-  margin-bottom: 50px;
-}
-
-.seminar-wrapper h3 {
-  font-size: 20px;
-}
-
-.seminar-wrapper-outer {
-  overflow-y: scroll;
-  height: 180px;
 }
