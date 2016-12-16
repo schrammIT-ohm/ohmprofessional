@@ -188,8 +188,6 @@ input[type=submit]:hover {
 
 .seminar-wrapper-outer {
   overflow-y: scroll;
-  position: relative;
-  display: inline-grid;
 }
 
 /*Wordpress-Posts*/
@@ -199,10 +197,22 @@ input[type=submit]:hover {
   padding: 1px;
 }
 
-.post-bottom {
+/*.post-bottom {
   position: absolute;
   bottom: 0;
   display: block;
+  margin-top: 10px;
+}*/
+
+.wrapper-wrapper {
+  display: flex;
+  flex-direction: column;
+/*The relative height was the key to prevent the seminar-wrapper-outer from overlapping the post-bottom div. 3 Hours. Halleluja! */
+  height: 90vh;
+}
+
+.post-bottom {
+  align-self: flex-end;
 }
 
 .post-wrapper:hover {
