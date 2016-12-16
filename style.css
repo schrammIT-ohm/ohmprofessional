@@ -43,23 +43,24 @@ Home Page only (FullScreen Layout)
 }
 
 .home-content h1 {
-  font-size: 41px;
+  font-size: 5vh;
   font-weight: bolder;
   text-align: center;
 }
 
 .home-content h2 {
-  font-size: 20px;
+  font-size: 3vh;
   font-weight: bold;
   text-align: center;
 }
 
 .uber {
   background-color: rgba(39, 83, 143, 0.5);
-  padding: 15px;
+  padding: 1.5vh;
   display: inline-block;
   margin-left: 42%;
   text-align: center;
+  font-size: 2vh;
 }
 
 .uber:hover {
@@ -106,7 +107,7 @@ Home Page only (FullScreen Layout)
 
 .img-responsive {
   padding-left: 20px;
-  height: 70px;
+  height: 10vh;
 }
 
 .social-list {
@@ -114,7 +115,7 @@ Home Page only (FullScreen Layout)
 }
 
 .social-list img {
-  height: 70px;
+  height: 10vh;
   opacity: 0.9;
 }
 
@@ -131,6 +132,7 @@ Home Page only (FullScreen Layout)
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 40px;
+  font-size: 2vh;
 }
 
 .footer a {
