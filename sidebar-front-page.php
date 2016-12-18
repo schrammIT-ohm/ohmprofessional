@@ -1,11 +1,13 @@
 <aside class="front-page">
+
   <?php
     // =======================================================================//
     // ! Suche
     // =======================================================================//
     get_search_form();
   ?>
-
+  <div class="wrapper-wrapper">
+  <div class="seminar-wrapper-outer">
   <?php
     // =======================================================================//
     // ! Seminare
@@ -20,17 +22,17 @@
 
    ?>
    <?php if($seminare->have_posts()): ?>
-     <h2>Seminare</h2>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
+      <div class="seminar-wrapper">
         <a href="<?php the_permalink(); ?>">
-          <h3><?php echo get_the_title();  ?></h3>
+          <h3 class="seminar"><?php echo get_the_title();  ?></h3>
         </a>
-
+      </div>
       <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
     <?php endif; ?>
-
-
+    </div>
+<div class="post-bottom">
   <?php
     // =======================================================================//
     // ! Posts
@@ -45,16 +47,20 @@
 
   ?>
   <?php if($posts->have_posts()): ?>
-    <h2>Blog Meldungen</h2>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
-       <a href="<?php the_permalink(); ?>">
-         <h3><?php echo get_the_title();  ?></h3>
+       <a class="post-wrapper-a" href="<?php the_permalink(); ?>">
+         <div class="post-wrapper">
+           <h3><?php echo get_the_title();  ?></h3>
+           <p><?php the_excerpt(); ?></p>
+         <!-- needs to change excerpt length to 20 in wp-includes/formatting.php -->
+        </div>
        </a>
 
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
   <?php endif; ?>
-
+  </div>
+  </div>
 
   <?php
       // =======================================================================//
