@@ -45,6 +45,7 @@
             <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
             <li><a href="<?php echo get_bloginfo('template_directory');?>/AGB.html">AGB</a></li>
             <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/anfahrt.html">Anfahrt</a></li>
           </ul>
       </footer>
     </div>
