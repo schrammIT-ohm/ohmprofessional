@@ -23,19 +23,54 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10"></div>
-        </div>
+          <div class="col-sm-10">
+<ul class="list-inline pull-right social-icons">
+  <li><a href="https://www.facebook.com/" target="_blank"><img src="  <?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt=""></li>
+  <li><a href="https://www.twitter.com/" target="_blank"><img src="  <?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt=""></li>
+  <li><a href="https://www.xing.com/" target="_blank"><img src="  <?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png"  alt=""></li>
+</ul>
+
+</div>
+</div>
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer></footer>
-    </div>
+
+
+<footer class="footer" style="text-align: center">
+
+
+
+
+  <ul class="list-inline">
+
+<li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /impressum.html ">Impressum</a></li>
+<li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /datenschutz.html ">Datenschutz</a></li>
+<li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /kontakt.html ">Kontakt</a></li>
+  </ul>
+
+
+
+
+
+
+
+</footer>
+
+
+</div>
+
+
+
+
+
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
     <?php get_sidebar('front-page'); ?>
 
+</div>
   </div>
   <!-- /FullScreen Wrapper: content + aside -->
 
