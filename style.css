@@ -68,5 +68,18 @@ Home Page only (FullScreen Layout)
   width: 100%;
   content: '';
 }
-
+.logo {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.pull-right {
+  margin-right: 20px;
+}
+.social-icons img {
+  max-height: 50px;
+  margin-top: 10px;
+}
+.footer {
+  margin-left: 20px;
+}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */

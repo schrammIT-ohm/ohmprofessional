@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+ <?php get_header(); ?>
 
   <h1>Hallo Welt</h1>
   <p>Blubdiblub</p>
