@@ -36,7 +36,13 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer></footer>
+      <footer>
+        <li>Impressum</li>
+        <li>Daten</li>
+        <li>AGB</li>
+        <li>Kontakt</li>
+
+      </footer>
     </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
