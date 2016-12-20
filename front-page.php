@@ -46,6 +46,7 @@
             <li>Impressum</li>
             <li>Datenschutz</li>
             <li>AGB</li>
+            <li>Kontakt</li>
           </ul>
         </footer>
       </div>
