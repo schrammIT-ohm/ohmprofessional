@@ -116,10 +116,12 @@ Home Page only (FullScreen Layout)
 .social-list img {
   height: 70px;
   opacity: 0.9;
+  filter: invert(70%);
 }
 
 .social-list img:hover {
   opacity: 1;
+  filter: invert(0%);
 }
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
 
