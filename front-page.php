@@ -37,13 +37,16 @@
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
       <footer>
+        <div class="col-sm-10">
+        <ul class="footer" text-align="center">
         <li>Impressum</li>
         <li>Daten</li>
         <li>AGB</li>
         <li>Kontakt</li>
-
+      </ul>
       </footer>
     </div>
+  </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
     <?php get_sidebar('front-page'); ?>
