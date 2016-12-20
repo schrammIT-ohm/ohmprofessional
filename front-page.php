@@ -21,13 +21,15 @@
               // otherwise use default Logo from ../img/...
               $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
             ?>
-            <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
+            <img style="padding: 20px; width:1000px;" class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
           <div class="col-sm-10">
-            <ul class="list-inline" text-align="right">
+            <ul class="front-page-kopf">
+              <style> .front-page-kopf li{display:block; float: right; padding: 20px;}
+              .front-page-kopf li img{width: 100px;} </style>
                 <li> <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt="Facebook"></li></a>
                 <li> <a href="https://info.xing.com/lp/fb/?ace=sem6ef37eae" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png" alt="Xing"></li></a>
-                <li> <a href="https://twitter.com/" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>img\1481745744_twitter_online_social_media.png" alt="Twitter"></li></a>
+                <li> <a href="https://twitter.com/" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt="Twitter"></li></a>
             </ul>
           </div>
         </div>
@@ -36,22 +38,23 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer>
-        
-        <ul class="footer" text-align="center">
-        <li>Impressum</li>
-        <li>Daten</li>
-        <li>AGB</li>
-        <li>Kontakt</li>
+      <footer style="position: absolute; bottom: 0px; height:100px; left: 0px; text-align: center;">
+        <ul class=front-page-fuß>
+        <style>.front-page-fuß li{display:block;float: left; font-size: 24px;padding: 20px;} </style>
+        <li>Impressum <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="blank"></li>
+        <li>Daten <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="blank"></li>
+        <li>AGB <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="blank"></li>
+        <li>Kontakt <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="blank"></li>
       </ul>
       </footer>
+    </div>
 
-  </div>
+
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
     <?php get_sidebar('front-page'); ?>
+    </div>
 
-  </div>
   <!-- /FullScreen Wrapper: content + aside -->
 
   <!-- FullScreen Image: image + gradient -->
