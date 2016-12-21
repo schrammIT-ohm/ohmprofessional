@@ -69,7 +69,6 @@ Home Page only (FullScreen Layout)
   content: '';
 }
 .social-icons img {
-  max-height: 40px;
-  margin-right: 4px;
+  margin-height: 40px;
 }
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
