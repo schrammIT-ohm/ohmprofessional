@@ -24,7 +24,7 @@
    <?php if($seminare->have_posts()): ?>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
       <div class="seminar-wrapper">
-        <a href="<?php the_permalink(); ?>">
+                <a href="<?php the_permalink(); ?>">
           <h3 class="seminar"><?php echo get_the_title();  ?></h3>
         </a>
       </div>
