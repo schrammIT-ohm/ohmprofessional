@@ -44,6 +44,8 @@
            <ul class="list-inline">
              <li> <a href="https://www.th-nuernberg.de/seitenbaum/impressum/page.html" target="blank">
                <alt=>Impressum</a> </li>
+               <li> |
+               </li>
              <li> <a href="https://www.th-nuernberg.de/institutionen/hochschulkommunikation/ohm-shop/agb/page.html" target="blank">
                <alt=>AGB</a> </li>
              <li> <a href="https://www.th-nuernberg.de/institutionen/language-center/ueber-uns/page.html" target="blank">
