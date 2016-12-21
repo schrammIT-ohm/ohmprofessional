@@ -135,10 +135,6 @@ Home Page only (FullScreen Layout)
   .mobile-search {display: none;}
 }
 
-.mobile-search:onc {
-  .search {display: }
-}
-
 @media all and (max-width: 500px) {
   .search {display: none;};
 }
@@ -148,6 +144,16 @@ Home Page only (FullScreen Layout)
     display: none;
     float: inherit;
   }
+}
+
+@media all and (max-width: 500px) {
+  .footer ul {
+    display: list-item;
+    bottom: 4vw;
+    font-size: 2vw;
+    float: inherit;
+    margin-left: -5vw;
+    };
 }
 
 .social-list img:hover {
