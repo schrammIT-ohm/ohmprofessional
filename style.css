@@ -81,4 +81,7 @@ Home Page only (FullScreen Layout)
 .navbar-fixed-bottom {
   bottom: -20px;
 }
+a {
+  color: white;
+}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
