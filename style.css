@@ -68,16 +68,12 @@ Home Page only (FullScreen Layout)
   width: 100%;
   content: '';
 }
-.logo {
-  margin-left: 10px;
-  margin-top: 10px;
-}
 .pull-right {
   margin-right: 20px;
 }
 .social-icons img {
-  max-height: 50px;
-  margin-top: 10px;
+  max-height: 40px;
+  margin-top: 20px;
 }
 .footer {
   margin-left: 20px;
