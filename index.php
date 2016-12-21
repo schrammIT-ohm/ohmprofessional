@@ -1,5 +1,10 @@
-<?php get_header(); ?>
-
-  <h1>Hallo Welt jhb asda </h1>
-  <p> Zwickeldizwick asdwads  dsasdasdasd</p>
-<?php get_footer(); ?>
+<?php
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post();
+		//
+		// Post Content here
+		//
+	} // end while
+} // end if
+?>
