@@ -13,7 +13,6 @@
   <div class="fullscreen-wrapper">
     <div class="home-content">
       <header class="row header">
-        <h1>Test</h1>
           <div class="col-sm-2">
             <?php
               // --- Logo
