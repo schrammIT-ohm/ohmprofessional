@@ -1,5 +1,5 @@
 <aside class="front-page">
-
+<h1 class="aside-header">Ohm Professional <br> School</h1>
   <?php
     // =======================================================================//
     // ! Suche
@@ -52,7 +52,7 @@
          <div class="post-wrapper">
            <h3><?php echo get_the_title();  ?></h3>
            <p><?php the_excerpt(); ?></p>
-         <!-- needs to change excerpt length to 20 in wp-includes/formatting.php -->
+         <!--change excerpt length to 10 in wp-includes/formatting.php -->
         </div>
        </a>
 
