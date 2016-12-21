@@ -25,9 +25,9 @@
           </div>
           <div class="col-sm-10">
 <ul class="list-inline pull-right social-icons">
-  <li><a href="https://www.facebook.com/" target="_blank"><img src="  <?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt=""></li>
-  <li><a href="https://www.twitter.com/" target="_blank"><img src="  <?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt=""></li>
-  <li><a href="https://www.xing.com/" target="_blank"><img src="  <?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png"  alt=""></li>
+  <li><a href="https://www.facebook.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt=""></li></a>
+  <li><a href="https://www.twitter.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt=""></li></a>
+  <li><a href="https://www.xing.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png"  alt=""></li></a>
 </ul>
 
 </div>
@@ -41,21 +41,12 @@
 
 <footer class="footer" style="text-align: center">
 
-
-
-
   <ul class="list-inline">
 
-<li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /impressum.html ">Impressum</a></li>
-<li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /datenschutz.html ">Datenschutz</a></li>
-<li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /kontakt.html ">Kontakt</a></li>
-  </ul>
-
-
-
-
-
-
+    <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /impressum.html ">Impressum</li></a>
+    <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /datenschutz.html ">Datenschutz</li></a>
+    <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /kontakt.html ">Kontakt</li></a>
+ </ul>
 
 </footer>
 
