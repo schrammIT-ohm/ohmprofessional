@@ -23,7 +23,23 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10"></div>
+          <div class="col-sm-10">
+            <!-- Problemstellung: Links zu den social-icon, Vergrößerung, Verkleinerung. Pfade!!! Sie müssen mit \beginnen(!) -->
+             <ul class="list-inline pull-right social-icons">
+             <li> <a href="https://www.facebook.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory')?> \img\ico\facebook.ico" alt="facebook-icon"  />
+             </a> </li>
+             <li><a href="https://www.twitter.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory') ?> \img\ico\twitter.ico" alt="twitter-icon" />
+             </a></li>
+             <li><a href="https://www.xing.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory') ?> \img\xing.png" alt="xing-icon"/>
+             </a></li>
+             <li><a href="https://www.linkedin.com" target="blank">
+               <img src="<?php echo get_bloginfo('template_directory') ?> \img\ico\linkedin.ico" alt="linkedin-icon" />
+             </a></li>
+           </ul>
+          </div>
         </div>
       </header>
       <main>
