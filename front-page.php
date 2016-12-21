@@ -40,7 +40,8 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer><ul class="list-inline bottom pull-left">
+      <footer class="navbar-fixed-bottom">
+        <ul class="list-inline">
         <li>Impressum</li>
         <li>Datenschutz</li>
         <li>AGB</li>
