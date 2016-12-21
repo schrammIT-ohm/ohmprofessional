@@ -9,6 +9,8 @@
 ?>
 
 <?php get_header(); ?>
+<h1>hallo welt</h1>
+<h1>hallo nochmal mail check</h1>
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
     <div class="home-content">
