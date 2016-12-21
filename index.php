@@ -1,9 +1,14 @@
 <?php get_header(); ?>
 
-  <h1>Hallo Welt</h1>
-  <p>Schubidu</p>
-  <p>Nananana</p>
-  <p>Hier steht Text</p>
-  <p>Blablabla</p>
+<?php
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post();
+		//
+		// Post Content here
+		//
+	} // end while
+} // end if
+?>
 
 <?php get_footer(); ?>
