@@ -49,7 +49,6 @@
       </ul>
       </footer>
     </div>
-kfjvklsd
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
     <?php get_sidebar('front-page'); ?>
 
