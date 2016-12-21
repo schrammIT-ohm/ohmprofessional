@@ -44,10 +44,10 @@
       <div class="navbar navbar-fixed-bottom">
         <footer class="footer">
           <ul class="list-inline">
-            <li>Impressum</li>
-            <li>Datenschutz</li>
-            <li>AGB</li>
-            <li>Kontakt</li>
+            <li><a href="https://www.ohm-professional-school.de/impressum" target="_blank">Impressum</a></li>
+            <li><a href="https://www.ohm-professional-school.de/Datenschutz" target="_blank">Datenschutz</a></li>
+            <li><a href="https://www.ohm-professional-school.de/AGB" target="_blank">AGB</a></li>
+            <li><a href="https://www.ohm-professional-school.de/Kontakt" target="_blank">Kontakt</a></li>
           </ul>
         </footer>
       </div>
