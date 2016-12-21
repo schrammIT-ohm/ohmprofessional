@@ -69,9 +69,7 @@ Home Page only (FullScreen Layout)
   content: '';
 }
 
-.list-inline {
-  text-align: right;
-}
+
 
 .social-icons img {
   max-height: 22px;
@@ -79,6 +77,10 @@ Home Page only (FullScreen Layout)
   list-style: inherit;
 }
 
+.impressum {
+position: absolute;
+bottom: 0;
+}
 
 @media screen and (max-width: 1000px) {
   .social-icon {
