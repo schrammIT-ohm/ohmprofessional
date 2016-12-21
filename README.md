@@ -1,4 +1,4 @@
-# ohmprofessional - wordpress theme
+# ohmprofessional - wordpress theme Matthias 
 
 Ohm Professional Landing Page:
 Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage entstehen, die sowohl statische Elemente wie zentraler Inforaum mit Werbe-Sprüchen/Keymessage sowie in Menüpunkten Informationen zum Studienprogramm, Termine, Ansprechpartner, Links zu Modulen/Anrechenbarkeit etc. enthalten soll.
