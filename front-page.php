@@ -27,16 +27,16 @@
             <!--ul -> 1.li -> 2.li->3.li und danach geht die ul wieder zu-->
            <ul class="list-inline pull-right social-icons">
              <li> <a href="https://www.facebook.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory')?> \img\online_social_media_facebook-128.png" alt="facebook-icon"  />
+               <img src="<?php echo get_bloginfo('template_directory');?> \img\online_social_media_facebook-128.png" alt="facebook-icon"  />
              </a> </li>
              <li><a href="https://www.twitter.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory') ?> \img\1481745744_twitter_online_social_media.png" alt="twitter-icon" />
+               <img src="<?php echo get_bloginfo('template_directory'); ?> \img\1481745744_twitter_online_social_media.png" alt="twitter-icon" />
              </a></li>
              <li><a href="https://www.xing.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory') ?> \img\social_media_logo_xing-128.png" alt="xing-icon"/>
+               <img src="<?php echo get_bloginfo('template_directory'); ?> \img\social_media_logo_xing-128.png" alt="xing-icon"/>
              </a></li>
              <li><a href="https://www.linkedin.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory') ?> \img\online_social_media_linked_in-128.png" alt="linkedin-icon" />
+               <img src="<?php echo get_bloginfo('template_directory'); ?> \img\online_social_media_linked_in-128.png" alt="linkedin-icon" />
              </a></li>
            </ul>
           </div>
@@ -48,7 +48,6 @@
         <a class="ghost-button-semi-transparent" href="more.php">Mehr erfahren</a>
       </main>
       <footer>
-        <div class="impressum">
         <ul class="list-inline pull-left">
           <li><a href="impressum.php">Impressum</a></li>
           <li><a href="datenschutz.php">Datenschutz</a></li>
@@ -57,8 +56,6 @@
         </ul>
       </div>
       </footer>
-    </div>
-
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
     <?php get_sidebar('front-page'); ?>
 
