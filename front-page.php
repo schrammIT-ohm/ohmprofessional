@@ -7,7 +7,7 @@
  */
 
 ?>
-
+<script src="https://use.fontawesome.com/bcdb174f50.js"></script>
 <?php get_header(); ?>
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper"> <!--äußerer Kontainer: besteht aus zwei Bereichen: Hautseite und Sidebar -->
@@ -21,7 +21,9 @@
               // otherwise use default Logo from ../img/...
               $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
             ?>
+            <a href="front-page.php">
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
+          </a>
           </div>
           <div class="col-sm-10"><!--hier müssen die social-links rein! Liste mit drei Listenelementen, die nebeneinander liegen -->
             <!--ul -> 1.li -> 2.li->3.li und danach geht die ul wieder zu-->
@@ -43,9 +45,11 @@
         </div>
       </header>
       <main>
+        <center>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a class="ghost-button-semi-transparent" href="more.php">Mehr erfahren</a>
+      </center>
       </main>
       <footer>
         <ul class="list-inline pull-left">

@@ -1,4 +1,5 @@
 <aside class="front-page">
+     <div style="text-indent:10px;">
   <?php
     // =======================================================================//
     // ! Suche
@@ -19,11 +20,13 @@
     $seminare = new WP_Query( $args );
 
    ?>
+
    <?php if($seminare->have_posts()): ?>
-     <h2>Seminare</h2>
+     <h3><u>Seminare</u></h3>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
         <a href="<?php the_permalink(); ?>">
-          <h3><?php echo get_the_title();  ?></h3>
+          <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <?php echo get_the_title();  ?></p>
         </a>
 
       <?php endwhile; ?>
@@ -45,17 +48,17 @@
 
   ?>
   <?php if($posts->have_posts()): ?>
-    <h2>Blog Meldungen</h2>
+    <h3><u>Blog Meldungen</u></h3>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
        <a href="<?php the_permalink(); ?>">
-         <h3><?php echo get_the_title();  ?></h3>
+         <p><?php echo get_the_title();  ?></p>
        </a>
 
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
   <?php endif; ?>
 
-
+</div>
   <?php
       // =======================================================================//
       // ! Widget Area

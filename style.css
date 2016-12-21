@@ -106,4 +106,7 @@ a:link, a:visited {
               border-color 0.3s ease-in;
 }
 
+.center  { text-align: center; }
+
+body { font-family: "Open Sans";}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
