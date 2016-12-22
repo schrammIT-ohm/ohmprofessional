@@ -279,3 +279,14 @@ input[type=submit]:hover {
   text-decoration: none;
   color: black;
 }
+
+.post {
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2vh;
+    overflow-y: scroll;
+    margin-top: -15vh;
+}
+
+.entry {
+}
