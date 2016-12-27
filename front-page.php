@@ -21,7 +21,7 @@
               // otherwise use default Logo from ../img/...
               $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
             ?>
-            <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
+            <img class="ohm-icon" class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
           <div class="col-sm-10">
           <ul class="list-inline pull-right social-icons">
@@ -42,10 +42,10 @@
       </main>
       <footer class="navbar-fixed-bottom">
         <ul class="list-inline">
-        <li>Impressum</li>
-        <li>Datenschutz</li>
-        <li>AGB</li>
-        <li>Kontakt</li>
+        <li> <a href="/impressum.html" target="_blank"></a>Impressum</li>
+        <li> <a href="/datenschutz.html" target="_blank"></a>Datenschutz</li>
+        <li> <a href="/agb.html" target="_blank"></a>AGB</li>
+        <li> <a href="/kontakt.html" target="_blank"></a>Kontakt</li>
       </ul>
       </footer>
     </div>
