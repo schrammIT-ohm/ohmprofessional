@@ -33,8 +33,11 @@
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
-
+        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
+                  <div class="ueber-box">Über uns</div>
+        </a>
       </main>
+
       <footer class="footer navbar-fixed-bottom">
           <ul class="list-inline" "margin-left:10px">
             <li><a href="#" target="_blank">Impressum</li>

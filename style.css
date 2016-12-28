@@ -53,7 +53,7 @@ Home Page only (FullScreen Layout)
   text-align: center;
 }
 
-.uber {
+.ueber-box {
   background-color: rgba(39, 83, 143, 0.5);
   padding: 15px;
   display: inline-block;
@@ -61,7 +61,7 @@ Home Page only (FullScreen Layout)
   text-align: center;
 }
 
-.uber:hover {
+.ueber-box:hover {
   background-color: rgba(39, 83, 143, 0.7);
 }
 
