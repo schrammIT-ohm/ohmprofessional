@@ -19,8 +19,11 @@
               // otherwise use default Logo from ../img/...
               $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
             ?>
-            <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
-          </div>
+
+          <img class="ohm-logo" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
+              </div>
+
+
           <div class="col-sm-10">
             <ul class="list-inline pull-right social-icons">
                   <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/img/facebook.png"alt=""/></a></li>
@@ -31,8 +34,16 @@
         </div>
       </header>
       <main>
+        <div>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+      </div>
+      <div class="Kasten für Button center-block">
+        <div class="col-md-offset-3">
+
+        <div class="btn btn-primary vertical-align: middle">
+          Über uns
+        </div>
       </main>
       <footer class="navbar-fixed-bottom">
           <div class=nav-inline>

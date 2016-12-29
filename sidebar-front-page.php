@@ -30,6 +30,35 @@
       <?php wp_reset_postdata(); ?>
     <?php endif; ?>
 
+    <div class="navbar">
+    <div class="navbar-inner">
+      <ul class="list-unstyled Ueberschriften text-center">
+            <li><a href="404.php" target="_blank">Agil Management</a></li>
+            <li><a href="404.php" target="_blank">Design Thinking</a></li>
+            <li><a href="404.php" target="_blank">Führen virtueller Teams</a></li>
+            <li><a href="404.php" target="_blank">Innovationskommunikation</a></li>
+            <li><a href="404.php" target="_blank">Open Innovation</a></li>
+      </ul>
+    </div>
+    </div>
+
+    <div class="Kasten2">
+    <div class="Gestaltung">
+<div class="text">
+  <h4><b>Breaking News: Alle TJ-Studenten bestehen E-Technik</b></h4>
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et<br><a class="pull-right" href="404.php" target="blank"> weiterlesen </a></p>
+</div>
+</div>
+</div>
+
+<div class="Kasten2">
+<div class="Gestaltung">
+<div class="text">
+<h4><b>Breaking News: Banholzer streicht respektive aus seinem Wortschatz</b></h4>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et<br><a class="pull-right" href="404.php" target="blank"> weiterlesen </a></p>
+</div>
+</div>
+</div>
 
   <?php
     // =======================================================================//
@@ -45,11 +74,12 @@
 
   ?>
   <?php if($posts->have_posts()): ?>
-    <h2>Blog Meldungen</h2>
+
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
        <a href="<?php the_permalink(); ?>">
          <h3><?php echo get_the_title();  ?></h3>
        </a>
+
 
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
