@@ -69,7 +69,10 @@ Home Page only (FullScreen Layout)
   content: '';
 }
 
-
+.impressum {
+position: absolute;
+bottom: -15px;
+}
 
 .social-icons img {
   max-height: 22px;
