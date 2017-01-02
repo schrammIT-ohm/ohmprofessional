@@ -40,25 +40,31 @@
              </a></li>
            </ul>
              <!-- Problemstellung: Impressum ect... -->
-          <div class="impressum">
-           <ul class="list-inline">
-             <li> <a href="https://www.th-nuernberg.de/seitenbaum/impressum/page.html" target="blank">
-               <alt=>Impressum</a> </li>
-               <li> |
-               </li>
-             <li> <a href="https://www.th-nuernberg.de/institutionen/hochschulkommunikation/ohm-shop/agb/page.html" target="blank">
-               <alt=>AGB</a> </li>
-             <li> <a href="https://www.th-nuernberg.de/institutionen/language-center/ueber-uns/page.html" target="blank">
-               <alt=>Über uns</a> </li>
-           </ul>
-          </div>
+
         </div>
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
       </main>
-      <footer></footer>
+      <footer>
+
+
+         <ul class="list-inline Impressum">
+           <li> <a href="https://www.th-nuernberg.de/seitenbaum/impressum/page.html" target="blank">
+             <alt=>Impressum</a> </li>
+             <li> |
+             </li>
+           <li> <a href="https://www.th-nuernberg.de/institutionen/hochschulkommunikation/ohm-shop/agb/page.html" target="blank">
+             <alt=>AGB</a> </li>
+             <li> |
+             </li>
+           <li> <a href="https://www.th-nuernberg.de/institutionen/language-center/ueber-uns/page.html" target="blank">
+             <alt=>Über uns</a> </li>
+         </ul>
+
+
+      </footer>
     </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
