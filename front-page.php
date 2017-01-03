@@ -12,58 +12,40 @@
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
     <div class="home-content">
-      <header>
-        <div class="row">
+      <header class="row header">
           <div class="col-sm-2">
             <?php
               // --- Logo
               // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
               // otherwise use default Logo from ../img/...
-              $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/TH_Nuernberg_logo.jpg';
+              $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
           <div class="col-sm-10">
-            <!-- Problemstellung: Links zu den social-icon, Vergrößerung, Verkleinerung. Pfade!!! Sie müssen mit \beginnen(!) -->
-             <ul class="list-inline pull-right social-icons">
-             <li> <a href="https://www.facebook.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory'); ?> \img\ico\facebook.ico" alt="facebook-icon"  />
-             </a> </li>
-             <li><a href="https://www.twitter.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory'); ?> \img\ico\twitter.ico" alt="twitter-icon" />
-             </a></li>
-             <li><a href="https://www.xing.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory'); ?> \img\xing.png" alt="xing-icon"/>
-             </a></li>
-             <li><a href="https://www.linkedin.com" target="blank">
-               <img src="<?php echo get_bloginfo('template_directory'); ?> \img\ico\linkedin.ico" alt="linkedin-icon" />
-             </a></li>
-           </ul>
-             <!-- Problemstellung: Impressum ect... -->
-
-        </div>
+            <ul class="list-inline pull-right social-list">
+              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
+              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
+            </ul>
+          </div>
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
+        <div class="uber">
+          Über uns
+        </div>
+      </a>
       </main>
-      <footer>
-
-
-         <ul class="list-inline Impressum">
-           <li> <a href="https://www.th-nuernberg.de/seitenbaum/impressum/page.html" target="blank">
-             <alt=>Impressum</a> </li>
-             <li> |
-             </li>
-           <li> <a href="https://www.th-nuernberg.de/institutionen/hochschulkommunikation/ohm-shop/agb/page.html" target="blank">
-             <alt=>AGB</a> </li>
-             <li> |
-             </li>
-           <li> <a href="https://www.th-nuernberg.de/institutionen/language-center/ueber-uns/page.html" target="blank">
-             <alt=>Über uns</a> </li>
-         </ul>
-
-
+      <footer class="footer">
+          <ul class="list-inline navbar">
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/AGB.html">AGB</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
+          </ul>
       </footer>
     </div>
 
