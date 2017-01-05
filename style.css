@@ -147,6 +147,7 @@ Home Page only (FullScreen Layout)
 /*Searchbar*/
 .search input {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .search input[type=text]{

@@ -27,6 +27,7 @@
               <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
               <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
               <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/1481745744_twitter_online_social_media.png" /></a></li>
             </ul>
           </div>
       </header>
