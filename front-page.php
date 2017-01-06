@@ -31,7 +31,7 @@
           </div>
       </header>
       <main>
-        <h1><?php echo get_bloginfo('name'); ?></h1>
+        <h1>Ohm Professional School</h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
                   <div class="ueber-box">Über uns</div>
