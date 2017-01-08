@@ -73,15 +73,13 @@ Home Page only (FullScreen Layout)
   margin-right: 30px;
 }
 
-
-.footer {
-  position: relative;
-  margin-top: -150px; /* negative value of footer height */
-  height: 150px;
-  clear:both;
-  padding-top:20px;
-  bottom: 100px;
+.menü-leiste {
+  min-width: 50%;
+  min-height: 50%;
 }
+
+
+
 
 
 
