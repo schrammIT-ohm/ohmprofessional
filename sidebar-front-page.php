@@ -27,11 +27,18 @@
         <a href="<?php the_permalink(); ?>">
           <h3 class="seminar"><?php echo get_the_title();  ?></h3>
         </a>
+          <h3>Fach1</h3>
+          <h3>Fach2</h3>
+          <h3>Fach3</h3>
+          <h3>Fach4</h3>
+          <h3>Fach5</h3>
+
       </div>
       <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
     <?php endif; ?>
     </div>
+
 <div class="post-bottom">
   <?php
     // =======================================================================//

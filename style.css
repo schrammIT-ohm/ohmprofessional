@@ -186,7 +186,7 @@ input[type=submit]:hover {
 }
 
 .seminar-wrapper {
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 
 .seminar-wrapper h3 {
@@ -214,8 +214,7 @@ input[type=submit]:hover {
 .wrapper-wrapper {
   display: flex;
   flex-direction: column;
-/*The relative height was the key to prevent the seminar-wrapper-outer from overlapping the post-bottom div. 3 Hours. Halleluja! */
-  height: 90vh;
+  height: 50vh;
 }
 
 .post-bottom {
