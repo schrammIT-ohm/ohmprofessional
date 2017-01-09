@@ -46,7 +46,7 @@ function ohmprofessional_scripts() {
 
   $template_url = get_template_directory_uri();
 
-  if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
+  if (is_home() == 1 && !is_admin()) {
 
       // ------------------------
       // --- CSS
@@ -72,6 +72,34 @@ function ohmprofessional_scripts() {
 
   }
 }
+
+if (is_home() == 0) {
+
+    // ------------------------
+    // --- CSS
+
+    // --- bootstrap
+    wp_register_style('boostrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.7', 'all');
+    wp_enqueue_style('boostrap'); // Enqueue it!
+
+    // --- basic theme style
+    wp_enqueue_style('ohmprofessional-style-post', get_stylesheet_directory_uri() . "/style_post.css");
+
+
+    // ------------------------
+    // --- JS
+
+    // - Jquery (footer but always first)
+    wp_deregister_script('jquery'); // deregister jquery, otherwise it will be loaded from wordpress-core (including jquery-migrate)
+    wp_register_script('jquery', $template_url.'/js/jquery-3.1.1.min.js', array(), '3.1.1', true);
+    wp_enqueue_script('jquery'); // Enqueue it!
+
+    wp_register_script('bootstrap', $template_url.'/js/bootstrap.min.js', array(), '3.3.7', true);
+    wp_enqueue_script('bootstrap'); // Enqueue it!
+
+}
+
+
 add_action('wp_enqueue_scripts', 'ohmprofessional_scripts');
 
 
