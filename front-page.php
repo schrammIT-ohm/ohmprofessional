@@ -37,6 +37,7 @@
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
         <div class="uber">
           Über uns
+          <?php echo is_home(); ?>
         </div>
       </a>
       </main>

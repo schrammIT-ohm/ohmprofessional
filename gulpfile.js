@@ -23,7 +23,7 @@ var paths = {
  *  - compile Less on changing less files
  *  - reload all browser with browser sync
  */
-gulp.task("watch", ["browser-sync", "bs-reload"], function () {
+    gulp.task("watch", ["browser-sync", "bs-reload"], function () {
 
     // -- Compile less files And reload browser-sync everytime we saved a less change
     gulp.watch(["*.css", "style.css"], ["bs-reload"]);
