@@ -38,7 +38,7 @@
   <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /Über uns.html ">Über uns |</a></li>
   <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /Studium.html ">Studium |</a></li>
   <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /Forschung.html ">Forschung |</a></li>
-  <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /Personen.html ">Personen |</a></li>
+  <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /Personen.html ">Personen </a></li>
 
     </ul>
 
@@ -59,6 +59,7 @@
 
 
 <footer class="navbar-fixed-bottom" >
+
   <div class="nav-inline">
 
 
@@ -68,13 +69,11 @@
 <li><a href="< ? Php? Echo get_bloginfo ( ' template_directory ' ); ? > /kontakt.html ">Kontakt</a></li>
   </ul>
   </div>
+
 </footer>
 
 
 </div>
-
-
-
 
 
 
