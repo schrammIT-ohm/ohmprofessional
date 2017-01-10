@@ -14,7 +14,18 @@
       <?php endif; ?>
       <!-- Display the Title as a link to the Post's permalink. -->
       <div class="title-wrapper">
-      <h2 class="title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title();?></a></h2>
+        <header class="row header">
+            <div class="col-md-2">
+              <?php
+                // --- Logo
+                // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
+                // otherwise use default Logo from ../img/...
+                $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
+              ?>
+              <a href="/wordpress"><img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>"></a>
+            </div>
+        </header>
+      <h1 class="title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title();?></a></h1>
       </div>
 
       <!-- Display the Post's content in a div box. -->
@@ -34,13 +45,14 @@
 
       <div class="content-wrapper">
         <div class="content">
+          <strong><?php the_excerpt(); ?></strong>
           <?php the_content(); ?>
         </div>
-      </div>
 
       <!-- Display a comma separated list of the Post's Categories. -->
 
       <p class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' );?> on <?php the_time('F jS, Y'); ?> by <?php the_author_posts_link(); ?></p>
+      </div>
     </div> <!-- closes the first div box -->
 
 
