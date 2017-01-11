@@ -49,6 +49,11 @@ Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage ent
 - functions.php: WidgetArea für Sidebar; CustomPost Type
 - header.php: removed `<header>` tag
 
+## Issues
+
+- Mobile view auf der Landingpage wird durch die Posts komplett eingenommen. Mit Javascript 2 von 3 Posts rausnehmen.
+- Posts und Seminare lassen sich ein Stück zu weit nach rechts scrollen. Grund: Keine Ahnung.
+
 ## Credits
 
 TODO: Write credits
