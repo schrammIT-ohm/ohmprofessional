@@ -108,5 +108,11 @@ a:link, a:visited {
 
 .center  { text-align: center; }
 
-body { font-family: "Open Sans";}
+
+#hintergrund {
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
