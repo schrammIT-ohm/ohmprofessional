@@ -1,18 +1,10 @@
-.img-responsive {
-  position: fixed;
-  height: 10vh;
-  padding-top: 20px;
-  padding-left: 20px;
-  z-index: 10;
-}
-
 .header-image {
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
   height: 70%;
-  width: 100%;
+  width: 100vw;
 }
 
 .header-image img {
@@ -27,11 +19,10 @@
 }
 
 .gradient:after {
-  display: block;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.1);
   height: 150%;
-  width: 100%;
+  width: 100vw;
   content: '';
   background-image: linear-gradient(180deg, black 1%, transparent);
 
@@ -57,8 +48,6 @@ background-color: #383793;
 .title a {
   color: white;
   font-style: bold;
-  font-size: 1.5em;
-
 }
 
 .title a:hover {
@@ -71,8 +60,44 @@ background-color: #383793;
   padding-bottom: 0.5vh;
 }
 
-.content {
-width: 50vw;
-margin-left: 25vw;
-padding-top: 25px;
+/* Desktop view */
+
+@media all and (min-width: 500px) {
+  .content {
+  width: 50vw;
+  margin-left: 25vw;
+  padding-top: 25px;
+}
+  .img-responsive {
+    position: fixed;
+    height: 6vh;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    z-index: 10;
+  }
+
+  .title a {
+      font-size: 1.5em;
+  }
+}
+/*Mobile view */
+
+@media all and (max-width: 500px) {
+  .content {
+  width: 76vw;
+  margin-left: 14vw;
+  padding-top: 25px;
+  text-align: justify;
+  }
+  .img-responsive {
+    position: fixed;
+    height: 7vh;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    z-index: 10;
+  }
+
+  .title a {
+      font-size: 7vw;
+  }
 }
