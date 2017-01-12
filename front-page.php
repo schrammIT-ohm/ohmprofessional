@@ -13,7 +13,7 @@
   <div class="fullscreen-wrapper">
     <div class="home-content">
       <header class="row header">
-          <div class="col-sm-2">
+          <div class="col-xs-3">
             <?php
               // --- Logo
               // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
@@ -22,7 +22,7 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10">
+          <div class="col-xs-9">
             <ul class="list-inline pull-right social-list">
               <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
               <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
@@ -35,12 +35,12 @@
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
           <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4">
               <div class="uber">
                 Über uns
               </div>
-            <div class="col-sm-4"></div>
+            <div class="col-xs-4"></div>
             </div>
           </div>
         </a>
