@@ -72,4 +72,13 @@ Home Page only (FullScreen Layout)
 .social-list img{
   height: 50px;
 }
+
+.footer {
+  position:fixed;;
+  right: 0;
+  bottom: 10;
+  left: 10;
+  padding: inherit;
+  background-color: #000000;
+  text-align: left;;
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
