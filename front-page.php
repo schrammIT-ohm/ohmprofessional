@@ -38,10 +38,10 @@
       </main>
       <footer class="footer navbar-fixed-bottom">
         <ul class="list-inline pull-left">
-          <li>Impressum</li>
-          <li>Datenschutz</li>
-          <li>AGB</li>
-          <li>Kontakt</li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+          <li><a href="#">AGB</a></li>
+          <li><a href="#">Kontakt</a></li>
         </ul>
         </footer>
     </div>
