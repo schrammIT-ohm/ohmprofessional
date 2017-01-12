@@ -150,7 +150,7 @@ Home Page only (FullScreen Layout)
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
   background-color: transparent;
   padding-top: 20px;
-  margin-left: 10%;
+  width: 90%;
 }
 
 input[type=submit] {
@@ -159,7 +159,8 @@ input[type=submit] {
   display: inline;
   height: 50px;
   width: 50px;
-  margin-left:40px;
+  position: absolute;
+  right: 0;
   opacity: 0.9;
 }
 
