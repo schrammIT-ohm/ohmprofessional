@@ -35,12 +35,12 @@
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
           <div class="row">
-            <div class="col-xs-4"></div>
-            <div class="col-xs-4">
+            <div class="col-xs-2 col-sm-4"></div>
+            <div class="col-xs-8 col-sm-4">
               <div class="uber">
                 Über uns
               </div>
-            <div class="col-xs-4"></div>
+            <div class="col-xs-2 col-sm-4"></div>
             </div>
           </div>
         </a>
