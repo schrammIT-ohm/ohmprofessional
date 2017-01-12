@@ -20,36 +20,36 @@ Home Page only (FullScreen Layout)
   z-index: 2;
   color: #fff;
 }
+
 .fullscreen-wrapper .home-content {
   position: relative;
-  margin-right: 25%;
   min-height: 100%;
 }
+
 .fullscreen-wrapper aside {
   background-color: rgba(39, 83, 143, 0.5);
-  min-height: 100%;
-  width: 25%;
   position: absolute;
-  top: 0;
+  width: 100%;
+  top: 35%;
   right: 0;
+  min-height: 65%;
 }
-/* -- Content */
+
 .home-content main {
-  /*center everything: https://css-tricks.com/centering-css-complete-guide/*/
   position: absolute;
-  top: 50%;
   left: 50%;
+  top: 25%;
   transform: translate(-50%, -50%);
 }
 
 .home-content h1 {
-  font-size: 41px;
+  font-size: 3em;
   font-weight: bolder;
   text-align: center;
 }
 
 .home-content h2 {
-  font-size: 20px;
+  font-size: 1.8em;
   font-weight: bold;
   text-align: center;
 }
@@ -58,8 +58,8 @@ Home Page only (FullScreen Layout)
   background-color: rgba(39, 83, 143, 0.5);
   padding: 15px;
   display: inline-block;
-  margin-left: 42%;
   text-align: center;
+  margin-left: 42%;
 }
 
 .uber:hover {
@@ -70,7 +70,6 @@ Home Page only (FullScreen Layout)
   color: white;
 }
 
-/* -- Fullscreen: https://css-tricks.com/perfect-full-page-background-image/#article-header-id-2 */
 .bgimage-container {
   position: fixed;
   top: -50%;
@@ -79,6 +78,7 @@ Home Page only (FullScreen Layout)
   height: 200%;
   z-index: 1;
 }
+
 .bgimage-container img {
   position: absolute;
   top: 0;
@@ -89,6 +89,7 @@ Home Page only (FullScreen Layout)
   min-width: 50%;
   min-height: 50%;
 }
+
 .gradient:after {
   display: block;
   position: relative;
@@ -97,7 +98,6 @@ Home Page only (FullScreen Layout)
   width: 100%;
   content: '';
   background-image: linear-gradient(180deg, black 15%, transparent);
-
 }
 
 .header img {
@@ -121,9 +121,7 @@ Home Page only (FullScreen Layout)
 .social-list img:hover {
   opacity: 1;
 }
-/*# sourceMappingURL=less/sourcemaps/style.css.map */
 
-/* stolen from https://getbootstrap.com/examples/sticky-footer/sticky-footer.css*/
 .footer {
   position: absolute;
   bottom: 0;
@@ -143,7 +141,6 @@ Home Page only (FullScreen Layout)
 }
 
 /* Sidebar */
-
 /*Searchbar*/
 .search input {
   margin-top: 20px;
@@ -158,13 +155,13 @@ Home Page only (FullScreen Layout)
 }
 
 input[type=submit] {
-    background: url("img/Citycons_magnify-50_white.svg");
-    border: 0;
-    display: inline;
-    height: 50px;
-    width: 50px;
-    margin-left:40px;
-    opacity: 0.9;
+  background: url("img/Citycons_magnify-50_white.svg");
+  border: 0;
+  display: inline;
+  height: 50px;
+  width: 50px;
+  margin-left:40px;
+  opacity: 0.9;
 }
 
 input[type=submit]:hover {
@@ -172,7 +169,6 @@ input[type=submit]:hover {
 }
 
 /* Seminare */
-
 .seminar {
   text-align: center;
   color: white;
@@ -197,17 +193,10 @@ input[type=submit]:hover {
   padding: 1px;
 }
 
-/*.post-bottom {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  margin-top: 10px;
-}*/
-
 .wrapper-wrapper {
   display: flex;
   flex-direction: column;
-/*The relative height was the key to prevent the seminar-wrapper-outer from overlapping the post-bottom div. 3 Hours. Halleluja! */
+  /*The relative height was the key to prevent the seminar-wrapper-outer from overlapping the post-bottom div. 3 Hours. Halleluja! */
   height: 90vh;
 }
 
@@ -240,3 +229,25 @@ input[type=submit]:hover {
   text-decoration: none;
   color: black;
 }
+
+@media (min-width: 992px) {
+  .fullscreen-wrapper .home-content {
+    margin-right: 25%;
+    min-height: 100%;
+  }
+  .fullscreen-wrapper aside {
+    min-height: 100%;
+    width: 25%;
+    top: 0;
+    right: 0;
+  }
+  /* -- Content */
+  .home-content main {
+    top: 50%;
+  }
+
+  .uber {
+    margin-left: 38%;
+  }
+}
+
