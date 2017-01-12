@@ -59,7 +59,6 @@ Home Page only (FullScreen Layout)
   padding: 15px;
   display: inline-block;
   text-align: center;
-  margin-left: 42%;
 }
 
 .uber:hover {
@@ -244,10 +243,6 @@ input[type=submit]:hover {
   /* -- Content */
   .home-content main {
     top: 50%;
-  }
-
-  .uber {
-    margin-left: 38%;
   }
 }
 
