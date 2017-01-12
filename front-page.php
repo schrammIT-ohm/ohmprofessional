@@ -35,6 +35,9 @@
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+        <div class="box">
+          <a href="#">Über uns</a>
+        </div>
       </main>
       <footer class="footer navbar-fixed-bottom">
         <ul class="list-inline pull-left">
