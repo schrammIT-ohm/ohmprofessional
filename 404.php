@@ -1,10 +1,7 @@
-<?php
-  // Achtung: der hier dargestellte Text wurde von PC-Games geklaut -- bitte unbedingt ändern!
-
-?>
 <?php get_header(); ?>
-<h1>404 Fehler</h1>
-<h2>Es ist nicht Deine Schuld.</h2>
-<h2>Es ist das Internet.</h2>
-<p>Die aufgerufene Seite konnte leider nicht gefunden werden.</p>
+<div align="center">
+<h1 style="color:pink">Die Seite wurde noch nicht entwickelt.</h1>
+<img src="img\Einhorn_sauer.jpg" alt="Stinkiges Einhorn" style="width:500px;height:300px;">
+<h2 style="color:purple"> Aber hier ist ein süßes Einhorn.</h2>
+</div>
 <?php get_footer(); ?>
