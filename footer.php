@@ -1,6 +1,6 @@
   <?php wp_footer(); ?>
 
-  <footer class="navbar-fixed-bottom">
+<!--  <footer class="navbar-fixed-bottom">
           <div class="col-sm-10">
            <ul class="list-inline">
               <li><a href="#" target="_blank">Impressum</a></li>
@@ -9,6 +9,6 @@
               <li><a href="#" target="_blank">Kontakt</a></li>
             </ul>
           </div>
-        </footer>
+        </footer> -->
   </body>
 </html>

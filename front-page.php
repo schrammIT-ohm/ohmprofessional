@@ -12,8 +12,7 @@
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
     <div class="home-content">
-      <header>
-        <div class="row">
+      <header class="row header">
           <div class="col-sm-2">
             <?php
               // --- Logo
@@ -24,29 +23,30 @@
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
           <div class="col-sm-10">
-            <ul class="list-inline pull-right social-icons">
-              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/facebook.png" alt="Facebook"></a></li>
-              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/xing.png" alt="Xing"></a></li>
-              <li><a href="https://www.twitter.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/twitter.png" alt="Twitter"></a></li>
+            <ul class="list-inline pull-right social-list">
+              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
+              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
             </ul>
           </div>
-        </div>
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
-      </main>
-<!--      <footer class="navbar-fixed-bottom">
-        <div class="col-sm-10">
-         <ul class="list-inline">
-            <li><a href="#" target="_blank">Impressum</a></li>
-            <li><a href="#" target="_blank">Datenschutz</a></li>
-            <li><a href="#" target="_blank">AGB</a></li>
-            <li><a href="#" target="_blank">Kontakt</a></li>
-          </ul>
+        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
+        <div class="uber">
+          Über uns
         </div>
+      </a>
+      </main>
+      <footer class="footer">
+          <ul class="list-inline navbar">
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/AGB.html">AGB</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
+          </ul>
       </footer>
-    -->
     </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
