@@ -21,7 +21,7 @@
               // otherwise use default Logo from ../img/...
               $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
             ?>
-            <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
+            <img class="img-responsive" clss=ohm-logo src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
           <div class="col-sm-10">
           <ul class="list-inline btn pull-right social-icons">
@@ -33,15 +33,15 @@
         </div>
       </header>
       <main>
-        <h1><?php echo get_bloginfo('name'); ?></h1>
-        <h2><?php echo get_bloginfo('description'); ?></h2>
+        <h1> <a href="404.php" target="_blank" </a>Ohm Professional School <br>
+        Ein Projekt der TH Nürnberg</h1>
       </main>
       <footer class="navbar-fixed-bottom">
         <ul class="list-inline">
-          <li>Impressum</li>
-          <li>Datenschutz</li>
-          <li>AGB</li>
-          <li>Kontakt</li>
+          <li> <a href="impressum.html" target="_blank" alt="404.php">Impressum</a></li>
+          <li> <a href="datenschutz.html" target="_blank" alt="404.php">Datenschutz</a></li>
+          <li> <a href="agb.html" target="_blank" alt="404.php">AGB</a></li>
+          <li> <a href="kontakt.html" target="_blank" alt="404.php">Kontakt</a></li>
         </ul>
       </footer>
     </div>
