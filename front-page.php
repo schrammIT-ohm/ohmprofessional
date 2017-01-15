@@ -34,11 +34,16 @@
             <li> <a href="https://www.linkedin.com/"
               target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_linked_in-128.png" alt="" /></a></li>
           </ul>
+        
         </div>
       </header>
       <main>
-        <h1><?php echo get_bloginfo('name'); ?></h1>
-        <h2><?php echo get_bloginfo('description'); ?></h2>
+        <h1>Ohm Professional School</h1>
+        <h2>Technische Hochschule Nürnberg</h2>
+        <div class="out">
+       <div class="col-md-offset-3"> <a href="404.php" target="_blank" alt="Über Uns"> <div class="Button center-block list-unstyled"> Über uns </div></a>
+       </div>
+           </div>
       </main>
       <footer class="navbar-fixed-bottom">
         <ul class="list-inline">
