@@ -34,8 +34,9 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
-        <button type="button" class="btn btn-primary btn-lg">Über uns</button>
-        <button type="button" class="btn btn-primary btn-lg btn-block">Über uns</button>
+        <div class="col-md-12 text-center">
+          <button type="button" class="btn btn-primary btn-lg">Über uns</button>
+        </div>
       </a>
       </main>
       <footer class="footer">
