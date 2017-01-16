@@ -22,23 +22,18 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10">
-            <ul class="list-inline pull-right social-list">
-              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
-              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
-              <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
-              <li><a href="https://www.twitter.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/1481745744_twitter_online_social_media.png" /></a></li>
-            </ul>
-          </div>
+      <div class='circle-container'><a href= target="_blank" class='center'>Social Media</a>
+      <a href="https://www.facebook.com" class='deg0'><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg"></a>
+      <a href="https://www.xing.com" target="_blank" class='deg45'><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg"></a>
+      <a href="https://www.linkedin.com" target="_blank" class='deg135'><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg"></a>
+      <a href="https://www.twitter.com" target="_blank" class='deg180'><img src="<?php echo get_bloginfo('template_directory');?>/img/1481745744_twitter_online_social_media.png"></a>
+      </div>
+      <a href="<?php echo get_bloginfo('template_directory');?>/uber.html"><div class="uber">Zurück zur Startseite
+      </div>
+      </a>
       </header>
       <main>
-        <h1><?php echo get_bloginfo('name'); ?></h1>
-        <h2><?php echo get_bloginfo('description'); ?></h2>
-        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
-        <div class="uber">
-          Über uns
-        </div>
-      </a>
+
       </main>
       <footer class="footer">
           <ul class="list-inline navbar">

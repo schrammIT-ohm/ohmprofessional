@@ -188,16 +188,12 @@ input[type=submit]:hover {
   font-size: 20px;
 }
 
-.seminar-wrapper-outer {
-  overflow-y: scroll;
-}
-
 /*Wordpress-Posts*/
 .post-wrapper {
   background-color: rgba(255, 255, 255, 0.4);
   margin: 20px;
   padding: 1px;
-  height: 5px;
+  margin-bottom: 1px;
 }
 
 /*.post-bottom {
@@ -212,6 +208,7 @@ input[type=submit]:hover {
   flex-direction: column;
 /*The relative height was the key to prevent the seminar-wrapper-outer from overlapping the post-bottom div. 3 Hours. Halleluja! */
   height: 90vh;
+  overflow-y: scroll;
 }
 
 .post-bottom {
@@ -242,4 +239,41 @@ input[type=submit]:hover {
 .front-page a:hover {
   text-decoration: none;
   color: black;
+}
+.circle-container {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 0.75em auto 0;
+}
+.circle-container a {
+    display: block;
+    position: absolute;
+    top: 20%; left: 150%;
+    width: 4em; height: 4em;
+    margin: -2em;
+}
+.circle-container img { display: block; width: 50%; }
+.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
+.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
+.deg180 { transform: translate(-12em); }
+.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+
+.center {
+  color: blue;
+  border-top: 30px;
+  font-size:25px;
+}
+.Fehlermeldung {
+  height: 200px;
+  width: 350px;
+}
+.emoji {
+height: verändert sich nciht...;
 }
