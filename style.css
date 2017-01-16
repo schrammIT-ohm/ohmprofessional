@@ -147,7 +147,7 @@ Home Page only (FullScreen Layout)
 /*Searchbar*/
 .search input {
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .search input[type=text]{
@@ -177,6 +177,7 @@ input[type=submit]:hover {
 .seminar {
   text-align: center;
   color: white;
+  height: 120;
 }
 
 .seminar-wrapper {
@@ -196,6 +197,7 @@ input[type=submit]:hover {
   background-color: rgba(255, 255, 255, 0.4);
   margin: 20px;
   padding: 1px;
+  height: 5px;
 }
 
 /*.post-bottom {
