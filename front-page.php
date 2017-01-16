@@ -36,15 +36,15 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <div class="box">
-          <a href="#">Über uns</a>
+          <a href="404.php">Über uns</a>
         </div>
       </main>
       <footer class="footer navbar-fixed-bottom">
         <ul class="list-inline pull-left">
-          <li><a href="#">Impressum</a></li>
-          <li><a href="#">Datenschutz</a></li>
-          <li><a href="#">AGB</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="404.php">Impressum</a></li>
+          <li><a href="404.php">Datenschutz</a></li>
+          <li><a href="404.php">AGB</a></li>
+          <li><a href="404.php">Kontakt</a></li>
         </ul>
         </footer>
     </div>

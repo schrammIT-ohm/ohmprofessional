@@ -3,8 +3,6 @@
 
 ?>
 <?php get_header(); ?>
-<h1>404 Fehler</h1>
-<h2>Es ist nicht Deine Schuld.</h2>
-<h2>Es ist das Internet.</h2>
-<p>Die aufgerufene Seite konnte leider nicht gefunden werden.</p>
+<img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/096/044/trollface.jpg?1296494117">
+
 <?php get_footer(); ?>

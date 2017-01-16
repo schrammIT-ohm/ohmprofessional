@@ -23,7 +23,7 @@
      <h2 class="seminare-header">Seminare</h2>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
         <a href="<?php the_permalink(); ?>">
-          <h3><?php echo get_the_title();  ?></h3>
+          <h4><?php echo get_the_title();  ?></h4>
         </a>
 
       <?php endwhile; ?>
@@ -45,10 +45,10 @@
 
   ?>
   <?php if($posts->have_posts()): ?>
-    <h2>Blog Meldungen</h2>
+    <h4 class="blog">Blog</h4>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
        <a href="<?php the_permalink(); ?>">
-         <h3><?php echo get_the_title();  ?></h3>
+         <h4><?php echo get_the_title();  ?></h4>
          <p><?php the_excerpt(); ?> </p>
        </a>
 
