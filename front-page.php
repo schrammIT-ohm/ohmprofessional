@@ -37,12 +37,13 @@
           </div>
         </div>
       </header>
-      <main>
+      <main class ="text-center">
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+        <button type="button" class="btn btn-primary center-block">Über uns</button>
       </main>
       <footer class="footer navbar-fixed-bottom">
-        <ul class="list-inline" margin-left:"10px">
+        <ul class="list-inline">
           <li><a href="#" target="_blank">Impressum</li>
           <li><a href="#" target="_blank">Datenschutz</li>
           <li><a href="#" target="_blank">AGB</li>

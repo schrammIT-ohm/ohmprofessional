@@ -1,4 +1,6 @@
-<aside class="front-page">
+<aside class="front-page text-center">
+
+
   <?php
     // =======================================================================//
     // ! Suche
@@ -14,13 +16,15 @@
     // get all (-1) custom post types "seminare"
     $args = array(
       'post_type' => 'seminare',
-      'posts_per_page' => -1
+      'posts_per_page' => 5
     );
     $seminare = new WP_Query( $args );
 
    ?>
    <?php if($seminare->have_posts()): ?>
-     <h2>Seminare</h2>
+     <strong>
+      <h2>SEMINARE</h2>
+    </strong>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
         <a href="<?php the_permalink(); ?>">
           <h3><?php echo get_the_title();  ?></h3>
@@ -31,24 +35,30 @@
     <?php endif; ?>
 
 
+
+
   <?php
     // =======================================================================//
     // ! Posts
     // =======================================================================//
 
     // -- Get last 3 Posts
-    $posts_per_page = 3;
+    $posts_per_page = 1;
     $args = array(
       'posts_per_page' => $posts_per_page
     );
     $posts = new WP_Query( $args );
 
   ?>
+
   <?php if($posts->have_posts()): ?>
-    <h2>Blog Meldungen</h2>
+
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
        <a href="<?php the_permalink(); ?>">
-         <h3><?php echo get_the_title();  ?></h3>
+         <div class="panel panel-default" >
+           <div class="panel-heading"><h3><?php echo get_the_title();  ?></h3></div>
+           <div class="panel-body text-muted"><?php echo get_the_excerpt();  ?></div>
+         </div>
        </a>
 
      <?php endwhile; ?>

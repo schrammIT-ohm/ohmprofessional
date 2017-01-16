@@ -15,5 +15,7 @@
       <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
       <?php wp_head(); ?>
+      <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   </head>
   <body <?php body_class(); ?>>
