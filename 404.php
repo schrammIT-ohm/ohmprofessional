@@ -1,4 +1,5 @@
 <header>
+	<title>Ohm - Page not found </title>
 		<div class="col-sm-12"> <!--Hier liegt das Logo, das links oben auf der Seite erscheint -->
 			<?php
 				// --- Logo
