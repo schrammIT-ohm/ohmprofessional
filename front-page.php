@@ -33,7 +33,7 @@
         </div>
       </header>
       <main>
-        <h1> <a href="404.php" target="_blank" </a>Ohm Professional School <br>
+        <h1> <a href="404.php" target="_blank"> </a>Ohm Professional School <br>
         Ein Projekt der TH Nürnberg</h1>
       </main>
       <footer class="navbar-fixed-bottom">

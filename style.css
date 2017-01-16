@@ -75,6 +75,7 @@ max-height: 80px;
 }
 
 .social-icons img {
-  max-height: 40px
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
