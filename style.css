@@ -186,16 +186,13 @@ input[type=submit]:hover {
   font-size: 20px;
 }
 
-.seminar-wrapper-outer {
-  overflow-y: scroll;
-}
 
 /*Wordpress-Posts*/
 .post-wrapper {
   background-color: rgba(255, 255, 255, 0.4);
   margin: 20px;
   padding: 1px;
-}
+  }
 
 /*.post-bottom {
   position: absolute;
@@ -209,6 +206,7 @@ input[type=submit]:hover {
   flex-direction: column;
 /*The relative height was the key to prevent the seminar-wrapper-outer from overlapping the post-bottom div. 3 Hours. Halleluja! */
   height: 90vh;
+  overflow: scroll;
 }
 
 .post-bottom {
