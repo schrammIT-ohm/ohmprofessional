@@ -10,36 +10,36 @@ Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage ent
 ## Overall Changelog
 - Allgemein
   - Titel & Keymessage zentriert
-  Borders (Rahmen zur Hervorhebung)
-  Farbschema angepasst
-  Favicon eingefügt
+  - Borders (Rahmen zur Hervorhebung)
+  - Farbschema angepasst
+  - Favicon eingefügt
 - Über-Button
-  Abstand des “Über” Buttons zum Text vergrößert
-  "Mehr erfahren" statt "Über" > Abstand nach links verringert
+  - Abstand des “Über” Buttons zum Text vergrößert
+  - "Mehr erfahren" statt "Über" > Abstand nach links verringert
 - Suche
-  "Suchen" statt "Suchbegriff eingeben"
-  Elemente aneinander ausgerichtet, Größenänderungen
-  Rahmen hinzugefügt
-  Leiste verbreitert (Einheitlichkeit mit Blog-Posts)
-  Such-Icon hinzugefügt/angepasst (Größe, Transparenz)
+  - "Suchen" statt "Suchbegriff eingeben"
+  - Elemente aneinander ausgerichtet, Größenänderungen
+  - Rahmen hinzugefügt
+  - Leiste verbreitert (Einheitlichkeit mit Blog-Posts)
+  - Such-Icon hinzugefügt/angepasst (Größe, Transparenz)
 - Footer
-  Abstand zu Bottom erstellt
-  Hover (weiß, statt blau?)
+  - Abstand zu Bottom erstellt
+  - Hover (weiß, statt blau?)
 - Seminare
-  Schriftgrad kleiner
-  Überschrift eingefügt und styled
-  Hover-Effekt hinzugefügt
+  - Schriftgrad kleiner
+  - Überschrift eingefügt und styled
+  - Hover-Effekt hinzugefügt
 - Blog
-  Einträge
-  Hintergrundtransparenz niedriger
-  Schriftfarbe und -grad angepasst
-  Border-Radius hinzugefügt
+  - Einträge
+  - Hintergrundtransparenz niedriger
+  - Schriftfarbe und -grad angepasst
+  - Border-Radius hinzugefügt
 - Social-Buttons
-  Eigene Icons eingefügt
-  Größenänderungen
-  class: social statt social-list (?)
-  Alt-Tags (alt-tag "facebook" > error?)
-  Hover-Effekt hinzugefügt/angepasst
+  - Eigene Icons eingefügt
+  - Größen- und Positionsänderungen
+  - class: social statt social-list (?)
+  - Alt-Tags (alt-tag "facebook" > error?)
+  - Hover-Effekt hinzugefügt/angepasst
 
 
 
