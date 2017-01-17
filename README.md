@@ -9,7 +9,7 @@ Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage ent
 
 ## Overall Changelog
 - Allgemein
-  Titel & Keymessage zentriert
+  - Titel & Keymessage zentriert
   Borders (Rahmen zur Hervorhebung)
   Farbschema angepasst
   Favicon eingefügt
