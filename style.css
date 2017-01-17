@@ -90,7 +90,10 @@ footer a {
   font-size: 14px;
   margin-right: 20px;
 }
-a {
+.white {
+  color: #fff;
+}
+.white a {
   color: #fff;
 }
 a:hover {
@@ -144,6 +147,12 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   opacity: 1;
+}
+.pic {
+  margin-top: 90px;
+}
+.foot {
+  margin-top: 20%;
 }
 
 /*# sourceMappingURL=less/sourcemaps/style.css.map */

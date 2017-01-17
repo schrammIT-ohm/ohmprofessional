@@ -38,12 +38,12 @@
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/about.html">
-        <div class="about">
+        <div class="about white">
           Über uns
         </div>
       </main>
       <footer>
-          <ul class="list-inline">
+          <ul class="list-inline white">
             <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
             <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
             <li><a href="<?php echo get_bloginfo('template_directory');?>/agb.html">AGB</a></li>
