@@ -7,31 +7,41 @@ Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage ent
 - Trello Board: https://trello.com/b/P1Ey6F0C/ohm-professional-school-landing-page
 - Anforderung: https://usecanvas.com/mirko/ia-ohm-professional-school-landingpage/3vm1xzXO5oJrSepcyU3Yzl
 
-## Installation - Windows
+## Overall Changelog
+- Allgemein
+  Titel & Keymessage zentriert
+  Borders (Rahmen zur Hervorhebung)
+  Farbschema angepasst
+  Favicon eingefügt
+- Über-Button
+  Abstand des “Über” Buttons zum Text vergrößert
+  "Mehr erfahren" statt "Über" > Abstand nach links verringert
+- Suche
+  "Suchen" statt "Suchbegriff eingeben"
+  Elemente aneinander ausgerichtet, Größenänderungen
+  Rahmen hinzugefügt
+  Leiste verbreitert (Einheitlichkeit mit Blog-Posts)
+  Such-Icon hinzugefügt/angepasst (Größe, Transparenz)
+- Footer
+  Abstand zu Bottom erstellt
+  Hover (weiß, statt blau?)
+- Seminare
+  Schriftgrad kleiner
+  Überschrift eingefügt und styled
+  Hover-Effekt hinzugefügt
+- Blog
+  Einträge
+  Hintergrundtransparenz niedriger
+  Schriftfarbe und -grad angepasst
+  Border-Radius hinzugefügt
+- Social-Buttons
+  Eigene Icons eingefügt
+  Größenänderungen
+  class: social statt social-list (?)
+  Alt-Tags (alt-tag "facebook" > error?)
+  Hover-Effekt hinzugefügt/angepasst
 
-1. Wechsel im Explorer in das theme-Verzeichnis deiner Wordpress Installation
-  1.  z.B: `C:/MAMP/htdocs/wordpress/wp-content/themes`
-2. Rechte Maus `Git Bash Here` öffnet die git-bash vom aktuellen Verzeichnis
-3. Führe den Befehl in der git-bash aus: `git clone https://github.com/schrammIT-ohm/ohmprofessional.git`
-  1. nun wird das repository in das Verzeichnis `../htdocs/wordpress/wp-content/themes/ohmprofessional` heruntergeladen
-4. Öffne das neue Verzeichnis `ohmprofessional` im "Atom" (oder einer IDE deiner Wahl)
-  1. in git-bash: wechsel in das ohmprofessional verzeichnmiz mittels: `cd ohmpreofessional` 
-5. Erstelle einen neuen branch
-  1. über git-bash: `git checkout -b <branchName>` (<branchName> z.B. Nachname + V1)
-  2. über atom mit git plus package: `Checkout New Branch`
-6. Änderungen lokal committen
-  1. über git-bash: `git commit -am "Kurze beschreibung der Aenderungen"`
-  2. über atom: `Add All and Commit`
-7. Upstream einstellen
-  1. über git-bash: `git push -u origin <branchName>`
-8. Änderungen des branches an den Server pushen (senden)
-  1. über git-bash: `git push`
-  2. über atom: `Push` (klappt evtl. nicht!)
 
-
-## Credits
-
-TODO: Write credits
 
 ## License
 
