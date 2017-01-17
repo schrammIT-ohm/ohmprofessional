@@ -232,6 +232,6 @@ input[type=submit]:hover {
 }
 
 .btn-primary-outline {
-  background-color: transparent;
-  border-color: #ccc;
+  background-color: rgba(41, 82, 144, 0.6);
+  border-color: #617490;
 }
