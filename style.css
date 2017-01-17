@@ -59,6 +59,7 @@ Home Page only (FullScreen Layout)
   background-color: rgba(9, 53, 103, 0.6);
   padding: 15px;
   border: 1px solid rgba(48, 105, 182, 0.5);
+  border-radius: 2px;
   display: inline-block;
   margin-top: 20px;
   margin-left: 38%;
@@ -155,6 +156,7 @@ Home Page only (FullScreen Layout)
 
 .search input[type=text]{
   border: 1px solid rgba(48, 105, 182, 0.5);
+  border-radius: 2px;
   background-color: transparent;
   padding: 4px;
   margin-left: 5%;
@@ -163,6 +165,7 @@ Home Page only (FullScreen Layout)
 
 input[type=submit] {
     background: url("img/search.png");
+    border-radius: 2px;
     border: 0;
     display: inline;
     padding-bottom: 10px;
