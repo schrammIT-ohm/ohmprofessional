@@ -40,12 +40,16 @@
       </a>
       </main>
       <footer class="footer">
-          <ul class="list-inline navbar">
-            <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
-            <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
-            <li><a href="<?php echo get_bloginfo('template_directory');?>/AGB.html">AGB</a></li>
-            <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
-          </ul>
+                    <div class="dropup">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
+                <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
+                <li><a href="<?php echo get_bloginfo('template_directory');?>/AGB.html">AGB</a></li>
+                <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
+ </ul>
+</div>
       </footer>
     </div>
 

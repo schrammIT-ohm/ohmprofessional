@@ -54,18 +54,6 @@ Home Page only (FullScreen Layout)
   text-align: center;
 }
 
-.uber {
-  background-color: rgba(39, 83, 143, 0.5);
-  padding: 15px;
-  display: inline-block;
-  margin-left: 42%;
-  text-align: center;
-}
-
-.uber:hover {
-  background-color: rgba(39, 83, 143, 0.7);
-}
-
 .home-content a {
   color: white;
 }
@@ -147,6 +135,8 @@ Home Page only (FullScreen Layout)
 /*Searchbar*/
 .search input {
   margin-top: 20px;
+
+
 }
 
 .search input[type=text]{
