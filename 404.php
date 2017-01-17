@@ -45,6 +45,7 @@
   <div class="col-sm-3" style="padding-left:80px; border-left: 1px solid #ccc;">
   <p>Links</p>
   <a href="http://www.th-nuernberg.de">www.th-nuernberg.de</a>
+  <br>
   <a href="http://www.ohm-professional.de">ohm-professional.de</a>
 <p><br><br></p>
 
