@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
   <head>
-      <meta charset="<?php bloginfo('charset'); ?>">
+     <meta charset="<?php bloginfo('charset'); ?>">
       <?php
           if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
           {
