@@ -21,23 +21,18 @@
     $seminare = new WP_Query( $args );
 
    ?>
-   <?php if($seminare->have_posts()): ?>
-     <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
-      <div class="seminar-wrapper">
+  <div class="seminar-wrapper">
         <a href="<?php the_permalink(); ?>">
-          <h3 class="seminar"><?php echo get_the_title();  ?></h3>
+          <h3 class="seminar"></h3>
         </a>
-          <h3>Fach1</h3>
-          <h3>Fach2</h3>
-          <h3>Fach3</h3>
-          <h3>Fach4</h3>
-          <h3>Fach5</h3>
+          <h3>Agil-Management</h3>
+          <h3>Design Thinking</h3>
+          <h3>Führen Virtueller Teams</h3>
+          <h3>Innovationskommunikation</h3>
+          <h3>Open Invation</h3>
 
       </div>
-      <?php endwhile; ?>
-      <?php wp_reset_postdata(); ?>
-    <?php endif; ?>
-    </div>
+  </div>
 
 <div class="post-bottom">
   <?php

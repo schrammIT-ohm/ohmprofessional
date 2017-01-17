@@ -1,18 +1,17 @@
 /*!
 Theme Name: Ohm Professional Landing
-Author: schrammIT
-Description: Super einfache Starter Theme für die Entwicklung der Ohm Professional Landing Page
+Author: Patrick Kalinke, Arben Maksuti
+Description:Theme für die Entwicklung der Ohm Professional Landing Page, mit front-page
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+
 /* ==========================================================================
 Home Page only (FullScreen Layout)
 ========================================================================== */
-/* -- Basic Layout: http://stackoverflow.com/a/4676510 */
+
 .fullscreen-wrapper {
   width: 100%;
   height: 100%;
@@ -35,7 +34,6 @@ Home Page only (FullScreen Layout)
 }
 /* -- Content */
 .home-content main {
-  /*center everything: https://css-tricks.com/centering-css-complete-guide/*/
   position: absolute;
   top: 50%;
   left: 50%;
@@ -130,7 +128,6 @@ Home Page only (FullScreen Layout)
 }
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
 
-/* stolen from https://getbootstrap.com/examples/sticky-footer/sticky-footer.css*/
 .footer {
   position: absolute;
   bottom: 0;
@@ -214,8 +211,7 @@ input[type=submit]:hover {
 .wrapper-wrapper {
   display: flex;
   flex-direction: column;
-  height: 50vh;
-}
+  height: 90vh;
 
 .post-bottom {
   align-self: flex-end;
