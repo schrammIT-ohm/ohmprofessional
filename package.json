@@ -1,8 +1,8 @@
 {
-  "name": "ohmprofessional",
+  "name": "ohmprof_weiss",
   "version": "0.0.1",
-  "author": "Mirko Schramm <info@schrammit.de>",
-  "homepage": "http://www.schrammit.de",
+  "author": "Nicolas Weiß + Kurs Webentwicklung (Mirko Schramm)",
+  "homepage": "",
   "licenses": [
     {
       "type": "MIT",

@@ -29,26 +29,6 @@ Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage ent
   2. über atom: `Push` (klappt evtl. nicht!)
 
 
-## History
-
-### 13.12.2016
-
-#### new
-- .gitignore: ignore `node_modules` on git commit
-- 404.php: FehlerSeite für invalide URLs
-- front-page.php: Template File for Landing Page (FullScreen Layout with FullScreenBackground)
-- gulpfile.js: Taskrunner (browserSync + LessCompiler ...) -> run with `gulp watch`
-- package.json: NPM installer für TaskRunner (terminal: `npm install` in this folder)
-- searchform.php: SearchForm for searching - atm: used in sidebar-front-page.php
-- sidebar-front-page.php: right sidebar on front-page
-- /img: includes logo and backgroundImage
-- /less: used for writing less instead of css (needs `gulp watch` running)
-
-#### updated
-- style.css: (contains basic css for front-page)
-- functions.php: WidgetArea für Sidebar; CustomPost Type
-- header.php: removed `<header>` tag
-
 ## Credits
 
 TODO: Write credits

@@ -13,7 +13,7 @@
   <div class="fullscreen-wrapper">
     <div class="home-content">
       <header class="row header">
-          <div class="col-sm-2">
+          <div class="col-sm-6">
             <?php
               // --- Logo
               // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
@@ -22,11 +22,11 @@
             ?>
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
-          <div class="col-sm-10">
-            <ul class="list-inline pull-right social-list">
-              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
-              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
-              <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
+          <div class="col-sm-6">
+            <ul class="list-inline pull-right social">
+              <li><a href="https://facebook.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/img/faceb.png" alt="Faceboook"></a></li>
+              <li><a href="https://linkedin.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/img/linked.png" alt="Linked In"></a></li>
+              <li><a href="https://xing.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/img/xing.png" alt="Xing"></a></li>
             </ul>
           </div>
       </header>
@@ -35,7 +35,7 @@
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
         <div class="uber">
-          Über uns
+          Mehr erfahren
         </div>
       </a>
       </main>

@@ -5,6 +5,6 @@
 <div>
     <form class="search" method="get" action="<?php echo home_url(); ?>" role="search">
         <input type="submit" value="">
-        <input placeholder="Suchbegriff eingeben" type="text" value="" name="s">
+        <input placeholder="Suchen" type="text" value="" name="s">
     </form>
 </div>

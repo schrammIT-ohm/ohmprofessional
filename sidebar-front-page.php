@@ -18,9 +18,10 @@
       'post_type' => 'seminare',
       'posts_per_page' => -1
     );
-    $seminare = new WP_Query( $args );
 
+    $seminare = new WP_Query( $args );
    ?>
+    <h3 style="opacity:0.7; text-align:center">Seminare</h3>
    <?php if($seminare->have_posts()): ?>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
       <div class="seminar-wrapper">
@@ -31,8 +32,9 @@
       <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
     <?php endif; ?>
-    </div>
-<div class="post-bottom">
+
+<!--<div class="post-bottom">
+</div> WTF-/div -->
   <?php
     // =======================================================================//
     // ! Posts
