@@ -34,13 +34,19 @@ Home Page only (FullScreen Layout)
   right: 0;
 }
 /* -- Content */
+
 .home-content main {
   /*center everything: https://css-tricks.com/centering-css-complete-guide/*/
   position: absolute;
+  text-align:center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.home-content main h3 {
+  margin-left: 0;
+}
+
 /* -- Fullscreen: https://css-tricks.com/perfect-full-page-background-image/#article-header-id-2 */
 .bgimage-container {
   position: fixed;
@@ -81,17 +87,58 @@ Home Page only (FullScreen Layout)
 .navbar-fixed-bottom {
   bottom: -20px;
 }
-a {
+a, a:hover, a:active, a:visited {
   color: white;
 }
-.uber {
+.mehr {
   background-color: rgba(39, 83, 143, 0.5);
   padding: 14px;
   display: inline-block;
-  margin-left: 42%;
   margin-top: 10px;
-  border: 1px solid rgba(48, 105, 182, 0.5);
   text-align: center;
 }
+.search input {
+  margin-top: 25px;
+}
+
+.search input[type=text]{
+  border: none;
+  width: 240px;
+  background-color: white;
+  padding: 5px;
+  margin-left: 5%;
+}
+
+input[type=submit] {
+    background: url("img/suche.PNG");
+    background-size: 30px 30px;
+    border: 0;
+    display: inline;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin-left:0px;
+    opacity: 0.9;
+}
+
+input[type=submit]:hover {
+  opacity: 1;
+}
+.seminare {
+  margin-left: 20px;
+}
+.blog {
+  margin-left: 20px;
+  background-color: hsla(360, 100%, 100%, 0.4);
+  width: 270px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+h3 {
+  font-size: 16px;
+}
+
 
 /*# sourceMappingURL=less/sourcemaps/style.css.map */

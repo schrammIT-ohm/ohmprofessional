@@ -17,15 +17,14 @@
       'posts_per_page' => -1
     );
     $seminare = new WP_Query( $args );
-
    ?>
+
    <?php if($seminare->have_posts()): ?>
-     <h2>Seminare</h2>
+      <h2 class="seminare">Seminare</h2>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
         <a href="<?php the_permalink(); ?>">
-          <h3><?php echo get_the_title();  ?></h3>
+          <h3 class="seminare"><?php echo get_the_title();  ?></h3>
         </a>
-
       <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
     <?php endif; ?>
@@ -45,12 +44,14 @@
 
   ?>
   <?php if($posts->have_posts()): ?>
-    <h2>Blog Meldungen</h2>
+    <div class="blog">
+    <h2>Blog</h2>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
        <a href="<?php the_permalink(); ?>">
-         <h3><?php echo get_the_title();  ?></h3>
+         <h3 style="font-weight: bold"><?php echo get_the_title();  ?></h3>
+         <p><?php the_excerpt() ?></p>
        </a>
-
+     </div>
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
   <?php endif; ?>
