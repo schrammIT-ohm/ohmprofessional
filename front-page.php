@@ -1,3 +1,4 @@
+70 lines (63 sloc)  3.15 KB
 <?php
 /*
  * See: https://codex.wordpress.org/Theme_Development#Template_Files
@@ -5,7 +6,6 @@
  * - "front-page.php" is used for the landing-page
  * - "home.php" is used for the blog (a listing of recent posts)
  */
-
 ?>
 
 <?php get_header(); ?>
@@ -34,7 +34,7 @@
             <li> <a href="https://www.linkedin.com/"
               target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_linked_in-128.png" alt="" /></a></li>
           </ul>
-        
+
         </div>
       </header>
       <main>

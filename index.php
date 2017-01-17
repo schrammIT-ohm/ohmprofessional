@@ -1,9 +1,13 @@
 <?php get_header(); ?>
 
+<<<<<<< HEAD
   <h1>Hallo Welt</h1>
 <p>Highsnob</p>
 <!-- Start the Loop. -->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+=======
+  <h1>Halleluja! It works!</h1>
+>>>>>>> f0b7ab6bfeb49276459d04b7b963420d2ae75b1b
 
  <!-- Test if the current post is in category 3. -->
  <!-- If it is, the div box is given the CSS class "post-cat-three". -->
