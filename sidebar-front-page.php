@@ -49,7 +49,7 @@
   <?php if($posts->have_posts()): ?>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
        <a class="post-wrapper-a" href="<?php the_permalink(); ?>">
-         <div class="post-wrapper">
+         <div class="post-wrapper img-rounded">
            <h3><?php echo get_the_title();  ?></h3>
            <p><?php the_excerpt(); ?></p>
          <!-- needs to change excerpt length to 20 in wp-includes/formatting.php -->
