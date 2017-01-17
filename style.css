@@ -78,6 +78,11 @@ Home Page only (FullScreen Layout)
   width: 200%;
   height: 200%;
   z-index: 1;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 .bgimage-container img {
   position: absolute;
