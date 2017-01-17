@@ -230,3 +230,8 @@ input[type=submit]:hover {
   text-decoration: none;
   color: black;
 }
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}

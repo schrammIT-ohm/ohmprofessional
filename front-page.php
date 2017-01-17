@@ -35,13 +35,13 @@
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
         <div class="col-md-12 text-center">
-          <button type="button" class="btn btn-primary btn-lg">Über uns</button>
+          <button type="button" class="btn btn-primary-outline btn-primary btn-lg">Erfahre mehr über uns</button>
         </div>
       </a>
       </main>
       <footer class="footer">
                     <div class="dropup">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Rechtliches&Kontakt
+            <button class="btn btn-primary btn-primary-outline dropdown-toggle" type="button" data-toggle="dropdown">Rechtliches&Kontakt
               <span class="caret"></span></button>
               <ul class="dropdown-menu">
                 <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
