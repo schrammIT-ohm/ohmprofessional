@@ -149,13 +149,14 @@ Home Page only (FullScreen Layout)
 
 /*Searchbar*/
 .search input {
-  margin-top: 15px;
+  margin-top: 26px;
+  margin-bottom: 20px;
 }
 
 .search input[type=text]{
   border: 1px solid rgba(48, 105, 182, 0.5);
   background-color: transparent;
-  padding: 5px;
+  padding: 4px;
   margin-left: 5%;
   width: 240px;
 }
