@@ -10,24 +10,25 @@ Für ein Projekt im Rahmen der Ohm-Professional-School soll eine Landingpage ent
 ## Overall Changelog
 - Allgemein
   - Titel & Keymessage zentriert
-  - Borders (Rahmen zur Hervorhebung)
+  - Borders (Rahmen zur Hervorhebung) + Radius
   - Farbschema angepasst
+  - Hintergrund-Blur
   - Favicon eingefügt
 - Über-Button
   - Abstand des “Über” Buttons zum Text vergrößert
-  - "Mehr erfahren" statt "Über" > Abstand nach links verringert
+  - "Mehr erfahren" statt "Über" > Abstand nach links verringert/zentriert
 - Suche
   - "Suchen" statt "Suchbegriff eingeben"
-  - Elemente aneinander ausgerichtet, Größenänderungen
+  - Elemente aneinander ausgerichtet, Größenänderungen, größerer Abstand zu anderen Elementen
   - Rahmen hinzugefügt
   - Leiste verbreitert (Einheitlichkeit mit Blog-Posts)
   - Such-Icon hinzugefügt/angepasst (Größe, Transparenz)
 - Footer
-  - Abstand zu Bottom erstellt
+  - Abstand zu Bottom hinzugefügt
   - Hover (weiß, statt blau?)
 - Seminare
   - Schriftgrad kleiner
-  - Überschrift eingefügt und styled
+  - Überschrift eingefügt
   - Hover-Effekt hinzugefügt
 - Blog
   - Einträge
