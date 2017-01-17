@@ -40,6 +40,10 @@
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
+        <div class="uber">
+          Mehr erfahren
+        </div>
       </main>
       <div class="navbar navbar-fixed-bottom">
         <footer class="footer">

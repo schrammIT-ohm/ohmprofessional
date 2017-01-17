@@ -84,4 +84,14 @@ Home Page only (FullScreen Layout)
 a {
   color: white;
 }
+.uber {
+  background-color: rgba(39, 83, 143, 0.5);
+  padding: 14px;
+  display: inline-block;
+  margin-left: 42%;
+  margin-top: 10px;
+  border: 1px solid rgba(48, 105, 182, 0.5);
+  text-align: center;
+}
+
 /*# sourceMappingURL=less/sourcemaps/style.css.map */

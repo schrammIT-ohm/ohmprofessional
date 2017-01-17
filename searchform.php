@@ -7,4 +7,7 @@
         <input placeholder="Suchbegriff eingeben" type="text" value="" name="s">
         <input type="submit" value="">
     </form>
+
+
+
 </div>
