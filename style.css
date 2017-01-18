@@ -79,20 +79,18 @@ Home Page only (FullScreen Layout)
 }
 
 .search input[type=submit]{
-  border: 0;
-  background: url("img/Search Filled-50.png");
-    display: inline;
-    height: 50px;
-    width: 50px;
-    margin-left:10px;
-    margin-top: 20px;
-    opacity: 0.9;
-    color: white;
-    background-color: rgba(255, 255, 235, 0.6)
+  display: inline;
+  height: 50px;
+  width: 50px;
+  margin-left:10px;
+  margin-top: 20px;
+  opacity: 0.9;
+  color: white;
 }
+
 .search input[type=text]{
   border: none;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
   background-color: transparent;
   padding-top: 20px;
   margin-left: 10%;
@@ -101,6 +99,7 @@ Home Page only (FullScreen Layout)
   text-align: center;
   font-size: 20px;
 }
+
 
 .front-page {
   text-align: center;

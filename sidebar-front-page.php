@@ -45,7 +45,7 @@
 
   ?>
   <?php if($posts->have_posts()): ?>
-    <h4 class="blog">Blog</h4>
+    <h3 class="blog">Blog</h3>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
        <a href="<?php the_permalink(); ?>">
          <h4><?php echo get_the_title();  ?></h4>
