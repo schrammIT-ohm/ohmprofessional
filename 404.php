@@ -3,8 +3,8 @@
 
 ?>
 <?php get_header(); ?>
-<h1>404 Fehler</h1>
-<h2>Es ist nicht Deine Schuld.</h2>
-<h2>Es ist das Internet.</h2>
-<p>Die aufgerufene Seite konnte leider nicht gefunden werden.</p>
+ <img class="404.php"src="img\404fehler_error.jpg.png" alt="404" style="width:600px;height:400px;">
+<strong>
+ <h3 style="color:black;"> Die aufgerufene Seite konnte leider nicht gefunden werden.</h3>
+ </strong>
 <?php get_footer(); ?>

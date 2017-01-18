@@ -68,5 +68,79 @@ Home Page only (FullScreen Layout)
   width: 100%;
   content: '';
 }
-
+.facebook {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.twitter {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.xing {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Logo {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-primary {
+  position: center;
+  margin-top: 30px;
+  width: 220px;
+  height:75px;
+  background-color: rgba(39, 83, 143, 0.6);
+  border: none;
+  text-align: center;
+  display: inline-block;
+}
+.search {
+height: 50px;
+width: 50px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.button {
+   padding: 1px 6px 1px 6px;
+   margin-left: 10px;
+   margin-right: -30px;
+}
+.footer a {
+     color: white;
+     margin: 10px;
+   }
+.row {padding-top: 10px;}
+.box {margin-left: 27px; margin-right: 20px; border-top: 5px;}
+.Text {width: 400px;  background-color: #fff; opacity: 0.3; display: table-cell; vertical-align: middle; padding-left: 5px; padding-right: 5px; text-align: center;}
+.Text p {font-size: 25px; color: black;}
+.Text a {text-decoration: none; color: #295390; text-align: right; margin-top: 30px;}
+.navbar-inner {text-align: center;}
+.Menüzwei {font-size: 20px; position: relative;}
+.Menüzwei li a {color: #fff; text-decoration: none; margin-right: 10px; margin-top: 10px; padding-top: 10px; display: inline-block; font-size: 25px;}
+.Menüzwei a:hover {color: #295390;}
+.Menü {font-size: 20px; margin-top: 40px; position: absolute;}
+.Menü li a {color: #fff; text-decoration: none; margin-left: -70px; padding-right: 90px;}
+.Menü a:hover {color: #295390;}
+h1 {font-size: 70px; text-align: center;}
+h2 {font-size: 50px; text-align: center;}
+h3 {color: black;}
+h4 {font-size: 30px;}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */

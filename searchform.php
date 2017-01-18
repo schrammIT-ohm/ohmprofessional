@@ -2,9 +2,9 @@
   // Search-Form:
   // TODO styling -> use bootstrap - e.g.:  http://getbootstrap.com/components/#input-groups-buttons
 ?>
-<div>
-    <form class="search" method="get" action="<?php echo home_url(); ?>" role="search">
-        <input placeholder="Suchbegriff eingeben" type="text" value="" name="s">
-        <input type="submit" value="">
-    </form>
-</div>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Suche">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button">Los</button>
+    </span>
+  </div>
