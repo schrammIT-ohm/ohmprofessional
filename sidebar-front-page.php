@@ -6,13 +6,23 @@
     // =======================================================================//
     get_search_form();
     ?>
-        <div class="aside-Liste">
-            <h4 style="margin-bottom: 30px; margin-top: 20px"><a href="http://ohm-professional-school.de/home/" target="_blank"><font color="white">Agil Management</font></h4>
-            <h4 style="margin-bottom: 30px"><a href="http://ohm-professional-school.de/home/" target="_blank"><font color="white">Design Thinking</font></h4>
-            <h4 style="margin-bottom: 30px"><a href="http://ohm-professional-school.de/home/" target="_blank"><font color="white">Führen Virtueller Teams</font></h4>
-            <h4 style="margin-bottom: 30px"><a href="http://ohm-professional-school.de/home/" target="_blank"><font color="white">Innovationskommunikation</font></h4>
-            <h4 style="margin-bottom: 15px"><a href="http://ohm-professional-school.de/home/" target="_blank"><font color="white">Open Innovation</font></h4>
-        </div>
+    <ul class="aside-Liste">
+        <li style="margin-bottom: 15px; margin-top: 15px">
+            <a href="#">Agil Management</a>
+        </li>
+        <li style="margin-bottom: 15px">
+            <a href="#">Design Thinking</a>
+        </li>
+        <li style="margin-bottom: 15px">
+            <a href="#">Führen Virtueller Teams</a>
+        </li>
+        <li style="margin-bottom: 15px">
+            <a href="#">Innovationskommunikation</a>
+        </li>
+        <li style="margin-bottom: 15px">
+            <a href="#">Open Innovation</a>
+        </li>
+    </ul>
 
         <div class="post-bottom">
             <?php

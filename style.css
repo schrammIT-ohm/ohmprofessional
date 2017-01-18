@@ -54,8 +54,18 @@ Home Page only (FullScreen Layout)
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .aside-Liste {
   text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.aside-Liste a {
+  color: white;
 }
 
 .ueberuns {
