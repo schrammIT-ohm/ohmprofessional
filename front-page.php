@@ -33,17 +33,13 @@
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
-        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
-          <div class="row">
-            <div class="col-xs-2 col-sm-4"></div>
-            <div class="col-xs-8 col-sm-4">
-              <div class="uber">
-                Über uns
-              </div>
-            <div class="col-xs-2 col-sm-4"></div>
+        <div class="text-center"> 
+          <a class="text-center" href="<?php echo get_bloginfo('template_directory');?>/uber.html">
+            <div class="uber">
+              Über uns
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </main>
       <footer class="footer">
           <ul class="list-inline navbar">
