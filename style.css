@@ -79,13 +79,14 @@ Home Page only (FullScreen Layout)
 }
 
 .search input[type=submit]{
-  display: inline;
-  height: 50px;
-  width: 50px;
-  margin-left:10px;
-  margin-top: 20px;
-  opacity: 0.9;
-  color: white;
+  background-image: url("img/search.png");
+   display: inline;
+   height: 50px;
+   width: 50px;
+   margin-left:10px;
+   margin-top: 20px;
+   opacity: 0.9;
+   color: white;
 }
 
 .search input[type=text]{

@@ -3,6 +3,5 @@
 
 ?>
 <?php get_header(); ?>
-<img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/096/044/trollface.jpg?1296494117">
-
+  <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/096/044/trollface.jpg?1296494117">
 <?php get_footer(); ?>
