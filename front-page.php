@@ -35,9 +35,9 @@
         <h2><?php echo get_bloginfo('description'); ?></h2>
         <div class="text-center"> 
           <a class="text-center" href="<?php echo get_bloginfo('template_directory');?>/uber.html">
-            <div class="uber">
+            <button class="btn-uber">
               Über uns
-            </div>
+            </button>
           </a>
         </div>
       </main>

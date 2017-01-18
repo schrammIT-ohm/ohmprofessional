@@ -65,6 +65,63 @@ Home Page only (FullScreen Layout)
   background-color: rgba(39, 83, 143, 0.7);
 }
 
+.btn-uber {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 3px solid #fff;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn-uber:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btn-uber:hover,
+.btn-uber:active {
+  color: #27538F;
+}
+
+.btn-uber:hover:after {
+  height: 260%;
+  opacity: 1;
+}
+
+.btn-uber:active:after {
+  height: 400%;
+  opacity: 1;
+}
+
 .home-content a {
   color: white;
 }
