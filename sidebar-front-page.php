@@ -61,12 +61,6 @@
                         </div>
                     </a>
                     <a class="post-wrapper-a" href="<?php the_permalink(); ?>">
-                        <div class="post-wrapper">
-                            <h3><?php echo get_the_title();  ?></h3>
-                            <p><?php the_excerpt(); ?></p>
-                        </div>
-                    </a>
-                    <a class="post-wrapper-a" href="<?php the_permalink(); ?>">
 
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>
