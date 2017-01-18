@@ -4,7 +4,6 @@
 ?>
 <?php get_header(); ?>
   <div class="fullscreen-wrapper">
-    <div class="home-content">
       <header class="row header">
           <div class="col-xs-3">
             <?php
@@ -44,7 +43,6 @@
             <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
           </ul>
       </footer>
-    </div>
   </div>
   <!-- /FullScreen Wrapper: content + aside -->
 
