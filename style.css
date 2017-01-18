@@ -90,7 +90,9 @@ Home Page only (FullScreen Layout)
    opacity: 0.9;
  }
 
-
+.sidebar-list a{
+  color: white;
+}
 
 .search input[type=text]{
   border: none;

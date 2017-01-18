@@ -21,13 +21,18 @@
    ?>
    <?php if($seminare->have_posts()): ?>
      <h2 class="seminare-header">Seminare</h2>
+      <ul class="sidebar-list">
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
+      <li>
         <a href="<?php the_permalink(); ?>">
           <h4><?php echo get_the_title();  ?></h4>
         </a>
+      </li>
+
 
       <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
+    </ul>
     <?php endif; ?>
 
 
