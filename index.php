@@ -22,7 +22,7 @@
                 // otherwise use default Logo from ../img/...
                 $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
               ?>
-              <a href="/wordpress"><img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>"></a>
+              <a href="/wordpress"><img class="img-responsive header-img" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>"></a>
             </div>
         </header>
       <h1 class="title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title();?></a></h1>

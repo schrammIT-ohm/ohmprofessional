@@ -68,7 +68,7 @@ background-color: #383793;
   margin-left: 25vw;
   padding-top: 25px;
 }
-  .img-responsive {
+  .header-img {
     position: fixed;
     height: 6vh;
     margin-top: 2vw;
@@ -89,7 +89,7 @@ background-color: #383793;
   padding-top: 25px;
   text-align: justify;
   }
-  .img-responsive {
+  .header-img {
     position: fixed;
     height: 7vh;
     margin-top: 3vw;
