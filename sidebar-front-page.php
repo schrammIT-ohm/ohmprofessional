@@ -34,7 +34,7 @@
     </div>
     <div class="navbar">
  <div class="navbar-inner">
- <ul class="list-unstyled Liste pull-center">
+ <ul class="list-unstyled pull-center">
   <li><a href="404.php" target="blank" alt="Agil-Management">Agil-Management</a></li>
   <li><a href="404.php" target="blank" alt="Design Thinking">Design Thinking</a></li>
   <li><a href="404.php" target="blank" alt="Führen Virtueller Teams">Führen Virtueller Teams</a></li>
