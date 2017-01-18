@@ -10,7 +10,7 @@
 
 <?php get_header(); ?>
   <!-- FullScreen Wrapper: content + aside -->
-  <div class="fullscreen-wrapper">
+  <div class="fullscreen-wrapper ">
     <div class="home-content">
       <header>
         <div class="row">
