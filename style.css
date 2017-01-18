@@ -133,7 +133,7 @@ Home Page only (FullScreen Layout)
 
 .footer a {
   color: white;
-  margin: 10px;
+  margin: 6px;
 }
 
 .footer:hover li {
@@ -246,6 +246,10 @@ input[type=submit]:hover {
 
   .post-bottom {
     align-self: flex-end;
+  }
+
+  .footer a {
+    margin: 10px;
   }
 }
 
