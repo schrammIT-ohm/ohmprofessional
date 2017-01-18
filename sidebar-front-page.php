@@ -12,14 +12,12 @@
     // =======================================================================//
     // ! Seminare
     // =======================================================================//
-
     // get all (-1) custom post types "seminare"
     $args = array(
       'post_type' => 'seminare',
       'posts_per_page' => -1
     );
     $seminare = new WP_Query( $args );
-
    ?>
    <?php if($seminare->have_posts()): ?>
      <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
@@ -37,14 +35,12 @@
     // =======================================================================//
     // ! Posts
     // =======================================================================//
-
     // -- Get last 3 Posts
     $posts_per_page = 3;
     $args = array(
       'posts_per_page' => $posts_per_page
     );
     $posts = new WP_Query( $args );
-
   ?>
   <?php if($posts->have_posts()): ?>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
