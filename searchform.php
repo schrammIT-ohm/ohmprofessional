@@ -2,7 +2,7 @@
   // Search-Form:
   // TODO styling -> use bootstrap - e.g.:  http://getbootstrap.com/components/#input-groups-buttons
 ?>
-<div>
+<div style="text-align: center">
     <form class="search" method="get" action="<?php echo home_url(); ?>" role="search">
         <input placeholder="Suchbegriff eingeben" type="text" value="" name="s">
         <input type="submit" value="">
