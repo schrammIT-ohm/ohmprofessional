@@ -1,11 +1,11 @@
-
 <?php
   // Search-Form:
   // TODO styling -> use bootstrap - e.g.:  http://getbootstrap.com/components/#input-groups-buttons
 ?>
-<div>
+<div class="search">
+  <img src="<?php echo get_bloginfo('template_directory') ?>/img/suche.png"
     <form class="search" method="get" action="<?php echo home_url(); ?>" role="search">
-        <input type="submit" value="">
-        <input placeholder=" " type="text" value="" name="s">
+        <input placeholder="Suchbegriff eingeben" type="text" value="" name="s">
+         <button type="submit" class="btn btn-default">Los</button>
     </form>
 </div>
