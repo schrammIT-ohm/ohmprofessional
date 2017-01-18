@@ -2,7 +2,7 @@
   // Search-Form:
   // TODO styling -> use bootstrap - e.g.:  http://getbootstrap.com/components/#input-groups-buttons
 ?>
-<div class="col-lg-6">
+<div class="col-lg-7">
   <div class="input-group">
     <input type="text" class="form-control" placeholder="Suche">
     <span class="input-group-btn">
