@@ -21,7 +21,7 @@
               // otherwise use default Logo from ../img/...
               $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
             ?>
-            <img class="img-responsive" class=ohm-logo src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
+            <img class="img-responsive ohm-logo" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </div>
           <div class="col-sm-10">
           <ul class="list-inline btn pull-right social-icons">
