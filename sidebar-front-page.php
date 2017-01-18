@@ -32,6 +32,16 @@
       <?php wp_reset_postdata(); ?>
     <?php endif; ?>
     </div>
+    <div class="navbar">
+ <div class="navbar-inner">
+ <ul class="list-unstyled Liste pull-center">
+  <li><a href="404.php" target="blank" alt="Agil-Management">Agil-Management</a></li>
+  <li><a href="404.php" target="blank" alt="Design Thinking">Design Thinking</a></li>
+  <li><a href="404.php" target="blank" alt="Führen Virtueller Teams">Führen Virtueller Teams</a></li>
+  <li><a href="404.php" target="blank" alt="Innovationskommunikation">Innovationskommunikation</a></li>
+  <li><a href="404.php" target="blank" alt="Open Innovation">Open Innovation</a></li>
+</ul>
+</div>
 <div class="post-bottom">
   <?php
     // =======================================================================//
