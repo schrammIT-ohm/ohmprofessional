@@ -103,6 +103,10 @@ Home Page only (FullScreen Layout)
   padding: 20px;
 
 }
+footer{
+  position: absolute;
+  bottom: 10px;
+}
 footer a {
   font-size: 14px;
   margin-right: 20px;
@@ -110,6 +114,9 @@ footer a {
   padding-bottom:
 }
 
+aside {
+  padding: 10px;
+}
 
 
 

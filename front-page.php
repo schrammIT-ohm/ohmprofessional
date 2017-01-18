@@ -39,7 +39,7 @@
         <a href="<?php echo get_bloginfo('template_directory');?>/about.html">
         <div class="about white">
           Über uns
-        </div class="footer"
+        </div>
       </main>
       <footer>
           <ul class="list-inline white">
