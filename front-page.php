@@ -25,9 +25,9 @@
           </div>
           <div class="col-sm-10">
           <ul class="list-inline Social-Links pull-right">
-            <li><a href="https://www.facebook.com" target="_blank"><img class="facebook"src="<?php echo get_bloginfo('template_directory');?> \img\online_social_media_facebook-128.png" alt="facebook" /></a></li>
-            <li><a href="https://twitter.com/" target="_blank"><img class="twitter"src="<?php echo get_bloginfo('template_directory');?> \img\1481745744_twitter_online_social_media.png" alt="twitter" /></a></li>
-            <li><a href="https://www.xing.com" target="_blank"><img class="xing"src="<?php echo get_bloginfo('template_directory');?> \img\social_media_logo_xing-128.png" alt="xing" /></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><img class="facebook"src="<?php echo get_bloginfo('template_directory');?>/img/online_social_media_facebook-128.png" alt="facebook" /></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img class="twitter"src="<?php echo get_bloginfo('template_directory');?>/img/1481745744_twitter_online_social_media.png" alt="twitter" /></a></li>
+            <li><a href="https://www.xing.com" target="_blank"><img class="xing"src="<?php echo get_bloginfo('template_directory');?>/img/social_media_logo_xing-128.png" alt="xing" /></a></li>
           </ul>
         </div>
       </header>
