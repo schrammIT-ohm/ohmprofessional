@@ -7,6 +7,7 @@
                 <li><a href="#" target="_blank">Datenschutz</a></li>
                 <li><a href="#" target="_blank">AGB</a></li>
                 <li><a href="#" target="_blank">Kontakt</a></li>
+                <li><a href="#" target="_blank">Anfahrt</a></li>
               </ul>
             </div>
           </footer> -->
