@@ -109,6 +109,10 @@ Home Page only (FullScreen Layout)
   font-size: 25px;
 }
 
+.textblog {
+  padding: 5px;
+}
+
 .front-page {
   text-align: center;
 }

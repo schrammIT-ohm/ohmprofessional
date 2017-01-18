@@ -14,7 +14,7 @@
     // get all (-1) custom post types "seminare"
     $args = array(
       'post_type' => 'seminare',
-      'posts_per_page' => -1
+      'posts_per_page' => -2
     );
     $seminare = new WP_Query( $args );
 
@@ -48,8 +48,8 @@
     <div class="blog">
       <h2>Blog</h2>
       <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
-        <a href="<?php the_permalink(); ?>">
-          <h4><?php echo get_the_title();  ?></h4>
+        <a class="textblog" href="<?php the_permalink(); ?>">
+          <h3><?php echo get_the_title();  ?></h3>
           <p><?php the_excerpt(); ?> </p>
         </a>
     </div>
