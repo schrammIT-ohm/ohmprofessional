@@ -14,7 +14,7 @@
     <div class="home-content">
       <header>
         <div class="row">
-          <div class="col-sm-2">
+          <div class="col-sm-2 Logo">
             <?php
               // --- Logo
               // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
@@ -29,14 +29,19 @@
                   <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/img/social_media_logo_xing-128.png"alt=""/></a></li>
                   <li><a href="https://twitter.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/img/1481745744_twitter_online_social_media.png"alt=""/></a></li>
             </ul>
-          </div>
         </div>
       </header>
       <main>
-        <h1><?php echo get_bloginfo('name'); ?></h1>
-        <h2><?php echo get_bloginfo('description'); ?></h2>
+        <h1>Ohm Professional School</h1>
+        <h2>Technische Hochschule Nürnberg</h2>
+        <div class="col-md-8 ueberuns">
+         <div class="btn btn-primary">
+          <strong>
+            <h4> Über uns </h4>
+          </strong>
+        </div>
       </main>
-      <footer class="navbar-fixed-bottom">
+      <footer class="navbar-fixed-bottom Navigation">
           <div class=nav-inline>
           <ul class="list-inline">
             <li>Impressum</li>

@@ -21,10 +21,13 @@
    ?>
    <?php if($seminare->have_posts()): ?>
      <h2>Seminare</h2>
-     <?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
-        <a href="<?php the_permalink(); ?>">
-          <h3><?php echo get_the_title();  ?></h3>
-        </a>
+
+        <a href=""><h3>Agil-Management</h3></a>
+        <a href=""><h3>Desing Thinking</h3></a>
+        <a href=""><h3>Führen Virtueller Teams</h3></a>
+        <a href=""><h3>Innovationskommunikation</h3></a>
+        <a href=""><h3>Open Innovation</h3></a>
+<?php while ( $seminare->have_posts() ) : $seminare->the_post(); ?>
 
       <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
@@ -46,10 +49,10 @@
   ?>
   <?php if($posts->have_posts()): ?>
     <h2>Blog Meldungen</h2>
+    <a href=""><h3>Heute gibt's Noten</h3></a>
+    <a href=""><h3>Banholzer ist late</h3></a>
     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
-       <a href="<?php the_permalink(); ?>">
-         <h3><?php echo get_the_title();  ?></h3>
-       </a>
+       
 
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>

@@ -28,7 +28,7 @@ Home Page only (FullScreen Layout)
 .fullscreen-wrapper aside {
   background-color: rgba(39, 83, 143, 0.5);
   min-height: 100%;
-  width: 350px;
+  width: 300px;
   position: absolute;
   top: 0;
   right: 0;
@@ -70,6 +70,52 @@ Home Page only (FullScreen Layout)
 }
 .social-icons img {
   max-height: 50px;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+.Logo img {
+  max-height: 75px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.Navigation {
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+h1 {
+  font-size: 35px;
+  text-align: left;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  font-size: 15px;
+  color: #FFFAFA;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+.btn-primary {
+  position: absolute;
+  margin-top: 15px;
+  width: 140px;
+  background-color: rgba(39, 83, 143, 0.6);
+  border: none;
+  text-align: center;
+  display: inline-block;
+}
+.ueberuns {
+  text-align: center;
 }
 
+.search {
+height: 50px;
+width: 50px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
