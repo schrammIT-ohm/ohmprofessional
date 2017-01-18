@@ -67,6 +67,50 @@ Home Page only (FullScreen Layout)
   height: 100%;
   width: 100%;
   content: '';
+
 }
+.list-inline {
+  font-size: 20px;
+}
+.social-icons {
+  padding-right: 20px;
+}
+.social-icons img {
+  max-height: 50px;
+  margin-top: 20px;
+}
+.social-icons img:hover {
+  opacity: 0.8;
+}
+.img-responsive {
+  max-height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.home-content h1 {
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+}
+.home-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.about{
+  margin-top: 15px;
+  text-align: center;
+  padding: 20px;
+
+}
+footer a {
+  font-size: 14px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-bottom:
+}
+
+
+
 
 /*# sourceMappingURL=less/sourcemaps/style.css.map */
