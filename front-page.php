@@ -32,14 +32,12 @@
         </div>
       </header>
       <main class="text-center">
-        <h1>Ohm Professional School</h1>
+        <h1> <strong>Ohm Professional School</strong></h1>
         <h2>Technische Hochschule Nürnberg</h2>
         <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
         <div class="über">
-       <div class="btn btn-primary vertical-align: center">
-        <strong>
-          <h4> Über uns </h4>
-        </strong>
+       <div class="btn btn-primary">
+          <h4> <strong> Über uns </strong> </h4>
       </div>
       </main>
       <footer class="navbar-fixed-bottom footer">

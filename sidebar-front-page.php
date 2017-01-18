@@ -31,11 +31,11 @@
     <div class="navbar">
       <div class="navbar-inner">
     <ul class="list-unstyled Menüzwei pull-right">
-      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html" alt="Agil-Management"> <strong> Agil-Management </strong></a></li>
-      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html" alt="Design Thinking"><strong>Design Thinking</strong></a></li>
-      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html"  alt="Führen Virtueller Teams"><strong>Führen Virtueller Teams</strong></a></li>
-      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html"  alt="Innovationskommunikation"><strong>Innovationskommunikation</strong></a></li>
-      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html"  alt="Open Innovation"><strong>Open Innovation</strong></a></li>
+      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html" alt="Agil-Management"> Agil-Management </a></li>
+      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html" alt="Design Thinking">Design Thinking</a></li>
+      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html"  alt="Führen Virtueller Teams">Führen Virtueller Teams</a></li>
+      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html"  alt="Innovationskommunikation">Innovationskommunikation</a></li>
+      <li><a href="http://localhost:8888/wordpress/wp-content/themes/ohmprofessional/uber.html"  alt="Open Innovation">Open Innovation</a></li>
     </ul>
     </div>
     </div>
