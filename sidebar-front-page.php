@@ -45,13 +45,14 @@
 
   ?>
   <?php if($posts->have_posts()): ?>
-    <h3 class="blog">Blog</h3>
-    <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
-       <a href="<?php the_permalink(); ?>">
-         <h4><?php echo get_the_title();  ?></h4>
-         <p><?php the_excerpt(); ?> </p>
-       </a>
-
+    <div class="blog">
+      <h2>Blog</h2>
+      <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
+        <a href="<?php the_permalink(); ?>">
+          <h4><?php echo get_the_title();  ?></h4>
+          <p><?php the_excerpt(); ?> </p>
+        </a>
+    </div>
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
   <?php endif; ?>
