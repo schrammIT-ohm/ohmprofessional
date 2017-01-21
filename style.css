@@ -73,16 +73,17 @@ Home Page only (FullScreen Layout)
 
 .Social-Links {padding-left: 30px;}
 
-.Social-Links img {height: 80px; margin-top: 10px;}
+.Social-Links img {height: 50px; margin-top: 0px;}
 
 .pull-left {text-align: left; font-size: 20px; padding-left: -20px;}
 
-.navbar-fixed-bottom li a {color: #fff; text-decoration: none; padding-left: 20px;}
+
+.navbar-fixed-bottom li a {color: #fff; text-decoration: none; padding-left: 20px; width: 100%;}
 .navbar-fixed-bottom a:hover {color: #295390;}
 
-.Menü {font-size: 20px; margin-top: 40px; position: absolute;}
-.Menü li a {color: #fff; text-decoration: none; margin-left: -70px; padding-right: 90px;}
-.Menü a:hover {color: #295390;}
+.navbar-fixed-top {position: absolute; margin-top: 68px;}
+.navbar-fixed-top li a {color: #fff; text-decoration: none; padding-left: -50px; width: 100%;}
+.navbar-fixed-top a:hover {color: #295390;}
 
 .footer {position: absolute; bottom: 0; padding-left: 20px; width: 100%; height: 40px;}
 

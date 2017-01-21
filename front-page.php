@@ -29,17 +29,18 @@
           <!--Social Media Links rechts oben -->
           <div class="col-sm-10">
             <ul class="list-inline Social-Links pull-right">
-                <li> <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt="Facebook"></li></a>
-                <li> <a href="https://info.xing.com/lp/fb/?ace=sem6ef37eae" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png" alt="Xing"></li></a>
-                <li> <a href="https://twitter.com/" target="blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt="Twitter"></li></a>
+              <a href="#" target=""></a>
+                <li> <a href="https://www.facebook.com/OHM.InternationalBusiness/?fref=ts" target="_blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/online_social_media_facebook-128.png" alt="Facebook"></li></a>
+                <li> <a href="https://info.xing.com/lp/fb/?ace=sem6ef37eae" target="_blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/social_media_logo_xing-128.png" alt="Xing"></li></a>
+                <li> <a href="https://twitter.com/" target="_blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/img/1481745744_twitter_online_social_media.png" alt="Twitter"></li></a>
             </ul>
 
-            <ul class="list-inline Menü">
-                <li> <a href="404.php" target="blank" alt=InformationenzumStudiumprogramm>Informationen zum Studienprogramm</a></li>
-                <li> <a href="404.php" target="blank" alt=Termine>Termine</a></li>
-                <li> <a href="404.php" target="blank" alt=Ansprechpartner>Ansprechpartner</a></li>
-                <li> <a href="404.php" target="blank" alt=Module>Module</a></li>
-          </ul>
+            <ul class="navbar-fixed-top pull-left list-inline">
+                <li><a href="404.php" target="_blank" alt="InformationenzumStudiumprogramm">Informationen zum Studienprogramm</a></li>
+                <li><a href="404.php" target="_blank" alt="Termine">Termine</a></li>
+                <li><a href="404.php" target="_blank" alt="Ansprechpartner">Ansprechpartner</a></li>
+                <li><a href="404.php" target="_blank" alt="Module">Module</a></li>
+           </ul>
           </div>
 
         </div>
@@ -47,9 +48,9 @@
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
-        <div class="out">
-        <div class="col-md-offset-3"> <a href="404.php" terget="blank" alt="Über Uns"> <div class="Button center-block list-unstyled"> Über uns </div></a>
-        </div>
+          <div class="out">
+            <div class="col-md-offset-3"> <a href="404.php" target="_blank" alt="Über Uns"> <div class="Button center-block"> Über uns </div></a>
+          </div>
         </div>
       </main>
 
@@ -57,10 +58,10 @@
       <footer class="footer">
       <ul class="navbar-fixed-bottom pull-left list-inline">
 
-        <li><a href="404.php" target="blank" alt="Impressum">Impressum</a></li>
-        <li><a href="404.php" target="blank" alt="Daten">Kontakt</a></li>
-        <li><a href="404.php" target="blank" alt="AGB">Daten</a></li>
-        <li><a href="404.php" target="blank" alt="Kontakt">AGB</a></li>
+        <li><a href="404.php" target="_blank" alt="Impressum">Impressum</a></li>
+        <li><a href="404.php" target="_blank" alt="Daten">Kontakt</a></li>
+        <li><a href="404.php" target="_blank" alt="AGB">Daten</a></li>
+        <li><a href="404.php" target="_blank" alt="Kontakt">AGB</a></li>
       </ul>
       </footer>
     </div>
