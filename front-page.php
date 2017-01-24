@@ -27,23 +27,31 @@
             <a href="front-page.php">
             <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
           </a>
+          <!--Social Media Links rechts oben -->
           </div>
           <div class="col-sm-10">
-            <ul class="list-inline pull-right social-icons hidden-xs">
+            <ul class="list-inline Social links pull-right">
               <li><a href="https://www.facebook.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \tags\online_social_media_facebook-128.png" alt="facebook-icon"/>
-              </a></li>
+                <img src="<?php echo get_bloginfo('template_directory');?>\img\online_social_media_facebook-128.png" alt="facebook"/></a></li>
               <li><a href="https://www.twitter.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \tags\1481745744_twitter_online_social_media.png" alt="twitter-icon"/>
-              </a></li>
+                <img src= <?php echo get_bloginfo('template_directory');?> \img\1481745744_twitter_online_social_media.png" alt="twitter"/></a></li>
               <li><a href="https://www.xing.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \tags\social_media_logo_xing-128.png" alt="xing-icon"/>
-              </a></li>
+                <img src="<?php echo get_bloginfo('template_directory');?> \img\social_media_logo_xing-128.png" alt="xing"/></a></li>
               <li><a href="https://www.linkedin.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \tags\online_social_media_linked_in-128.png" alt="linkedin-icon"/>
-              </a></li>
+                <img src="<?php echo get_bloginfo('template_directory');?> \img\online_social_media_linked_in-128.png" alt="linkedin"/></a></li>
             </ul>
           </div>
+
+          <ul class="navbar-fixed-top pull-left list-inline">
+    <li><a href="404.php" target="_blank" alt="InformationenzumStudiumprogramm">Informationen zum Studienprogramm</a></li>
+    <li><a href="404.php" target="_blank" alt="Termine">Termine</a></li>
+    <li><a href="404.php" target="_blank" alt="Ansprechpartner">Ansprechpartner</a></li>
+    <li><a href="404.php" target="_blank" alt="Module">Module</a></li>
+</ul>
+</div>
+
+</div>
+
       </header>
       <main>
          <center>
@@ -67,21 +75,17 @@
        </div>
       </a>
 
-      </main>
-      <footer>
-        <ul class="list-inline pull-left">
-           <li><a href="impressum.php">Impressum</a></li>
-           <li><a href="datenschutz.php">Datenschutz</a></li>
-           <li><a href="agb.php">AGB</a></li>
-           <li><a href="kontakt.php">Kontakt</a></li>
-        </ul>
-    </div>
-      </footer>
-    </div>
+
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
     <?php get_sidebar('front-page'); ?>
 
+    <div class="seminar-wrapper">
+      <a href="<?php the_permalink(); ?>">
+        <h3 class="seminar"> <?php echo get_the_title(Seminar);  ?></h3>
+      </a>
+      <ul class="navbar-fixed-middel-left list-inline">
+    </div>
 
 
   <!-- /FullScreen Wrapper: content + aside -->
@@ -93,3 +97,15 @@
   <!-- /FullScreen Image: image + gradient -->
 
 <?php get_footer(); ?>
+
+</main>
+ <footer>
+   <div>
+      <ul class="navbar-fixed-bottom pull-left list-inline">
+    <li><a href="impressum.php">Impressum</a></li>
+    <li><a href="datenschutz.php">Datenschutz</a></li>
+    <li><a href="agb.php">AGB</a></li>
+    <li><a href="kontakt.php">Kontakt</a></li>
+ </ul>
+</div>
+</footer>
