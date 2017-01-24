@@ -32,7 +32,8 @@
           <div class="col-sm-10">
             <ul class="list-inline Social links pull-right">
               <li><a href="https://www.facebook.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?>\img\online_social_media_facebook-128.png" alt="facebook"/></a></li>
+                <img src="img/Users/marcelgeldner/Desktop/online_social_media_facebook-128.png" alt="facebook"/>
+              </a></li>
               <li><a href="https://www.twitter.com" target="_blank">
                 <img src= <?php echo get_bloginfo('template_directory');?> \img\1481745744_twitter_online_social_media.png" alt="twitter"/></a></li>
               <li><a href="https://www.xing.com" target="_blank">
@@ -63,7 +64,7 @@
           <br>
         <div class="visible-xs" id="menue18">
           <ul>
-          <li class="level1"><u>Social Media</u>
+          <li class="visible-xs"><u>Social Media</u>
             <ul>
                <li class="level2"><a href="https://www.facebook.com">Facebook</a></li>
                <li class="level2"><a href="https://www.twitter.com">Twitter</a></li>
@@ -84,7 +85,7 @@
       <a href="<?php the_permalink(); ?>">
         <h3 class="seminar"> <?php echo get_the_title(Seminar);  ?></h3>
       </a>
-      <ul class="navbar-fixed-middel-left list-inline">
+      <ul class="navbar-fixed-middle-left list-inline">
     </div>
 
 
@@ -99,9 +100,11 @@
 <?php get_footer(); ?>
 
 </main>
+          <!--Footer ganz unten links mit Impressum, Datenschutz, AGB und Kontakt-->
  <footer>
    <div>
-      <ul class="navbar-fixed-bottom pull-left list-inline">
+     <footer class="footer">
+     <ul class="navbar-fixed-bottom pull-left list-inline">
     <li><a href="impressum.php">Impressum</a></li>
     <li><a href="datenschutz.php">Datenschutz</a></li>
     <li><a href="agb.php">AGB</a></li>
