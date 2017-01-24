@@ -31,16 +31,16 @@
           <div class="col-sm-10">
             <ul class="list-inline pull-right social-icons hidden-xs">
               <li><a href="https://www.facebook.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \img\online_social_media_facebook-128.png" alt="facebook-icon"/>
+                <img src="<?php echo get_bloginfo('template_directory');?> \tags\online_social_media_facebook-128.png" alt="facebook-icon"/>
               </a></li>
               <li><a href="https://www.twitter.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \img\1481745744_twitter_online_social_media.png" alt="twitter-icon"/>
+                <img src="<?php echo get_bloginfo('template_directory');?> \tags\1481745744_twitter_online_social_media.png" alt="twitter-icon"/>
               </a></li>
               <li><a href="https://www.xing.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \img\social_media_logo_xing-128.png" alt="xing-icon"/>
+                <img src="<?php echo get_bloginfo('template_directory');?> \tags\social_media_logo_xing-128.png" alt="xing-icon"/>
               </a></li>
               <li><a href="https://www.linkedin.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \img\online_social_media_linked_in-128.png" alt="linkedin-icon"/>
+                <img src="<?php echo get_bloginfo('template_directory');?> \tags\online_social_media_linked_in-128.png" alt="linkedin-icon"/>
               </a></li>
             </ul>
           </div>
