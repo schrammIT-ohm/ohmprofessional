@@ -30,37 +30,44 @@
           <!--Social Media Links rechts oben -->
           </div>
           <div class="col-sm-10">
-            <ul class="list-inline Social links pull-right">
-              <li><a href="https://www.facebook.com" target="_blank">
-                <img src="img/Users/marcelgeldner/Desktop/online_social_media_facebook-128.png" alt="facebook"/>
-              </a></li>
-              <li><a href="https://www.twitter.com" target="_blank">
-                <img src= <?php echo get_bloginfo('template_directory');?> \img\1481745744_twitter_online_social_media.png" alt="twitter"/></a></li>
-              <li><a href="https://www.xing.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \img\social_media_logo_xing-128.png" alt="xing"/></a></li>
-              <li><a href="https://www.linkedin.com" target="_blank">
-                <img src="<?php echo get_bloginfo('template_directory');?> \img\online_social_media_linked_in-128.png" alt="linkedin"/></a></li>
-            </ul>
-          </div>
+                <!--hier sind die social-links reinkopiert! Liste mit vier Listenelementen, die nebeneinander liegen -->
+               <!--ul -> 1.li -> 2.li->3.li->4.li und danach geht die ul wieder zu-->
+              <ul class="list-inline Social links pull-right">
+                <li> <a href="https://www.facebook.com" target="blank">
+                 <img src="<?php echo get_bloginfo('template_directory');?> /img/online_social_media_facebook-128.png" alt="facebook-icon"  />
+               </a> </li>
+               <li><a href="https://www.twitter.com" target="blank">
+                 <img src="<?php echo get_bloginfo('template_directory'); ?> /img/1481745744_twitter_online_social_media.png" alt="twitter-icon" />
+               </a></li>
+               <li><a href="https://www.xing.com" target="blank">
+                 <img src="<?php echo get_bloginfo('template_directory'); ?> /img/social_media_logo_xing-128.png" alt="xing-icon"/>
+               </a></li>
+               <li><a href="https://www.linkedin.com" target="blank">
+                 <img src="<?php echo get_bloginfo('template_directory'); ?> /img/online_social_media_linked_in-128.png" alt="linkedin-icon" />
+               </a></li>
+             </ul>
 
-          <ul class="navbar-fixed-top pull-left list-inline">
-    <li><a href="404.php" target="_blank" alt="InformationenzumStudiumprogramm">Informationen zum Studienprogramm</a></li>
-    <li><a href="404.php" target="_blank" alt="Termine">Termine</a></li>
-    <li><a href="404.php" target="_blank" alt="Ansprechpartner">Ansprechpartner</a></li>
-    <li><a href="404.php" target="_blank" alt="Module">Module</a></li>
+          </div>
+        </header>
+          <Sidebar>
+           <sidebar-frontPage>
+          <ul class="navbar-fixed-pull right">
+            <li><a href="404.php" target="_blank" alt="Module">Module</a></li>
+    <li><a href="404.php" target="_blank" alt="Agil Management Methoden">Agil Management Methoden</a></li>
+    <li><a href="404.php" target="_blank" alt="Design Thinking">Design Thinking</a></li>
+    <li><a href="404.php" target="_blank" alt="Open Innovation">Open Innovation</a></li>
+    <li><a href="404.php" target="_blank" alt="Innovationskommunikation">Innovationskommunikation</a></li>
 </ul>
 </div>
 
 </div>
 
-      </header>
-      <main>
-         <center>
-
+     <main>
+       <center>
         <h1>Ohm Professional School</h1>
         <h2>Technische Hochschule Nürnberg</h2>
         <a class="ghost-button-semi-transparent" href="more.php">Mehr erfahren</a>
-          </center>
+        </center>
           <br>
         <div class="visible-xs" id="menue18">
           <ul>
@@ -103,8 +110,8 @@
           <!--Footer ganz unten links mit Impressum, Datenschutz, AGB und Kontakt-->
  <footer>
    <div>
-     <footer class="footer">
-     <ul class="navbar-fixed-bottom pull-left list-inline">
+     <footer class="navbar-fixed-bottom">
+      <ul class="list-inline">
     <li><a href="impressum.php">Impressum</a></li>
     <li><a href="datenschutz.php">Datenschutz</a></li>
     <li><a href="agb.php">AGB</a></li>
