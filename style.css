@@ -10,6 +10,278 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-h1 {
-  color: red;
+.fullscreen-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  color: #fff;
+}
+.fullscreen-wrapper .home-content {
+  position: relative;
+  margin-right: 350px;
+  min-height: 100%;
+}
+.fullscreen-wrapper aside {
+  background-color: rgba(39, 83, 143, 0.5);
+  min-height: 100%;
+  width: 350px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* -- Content */
+.home-content main {
+  /*center everything: https://css-tricks.com/centering-css-complete-guide/*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+
+.home-content h1 {
+  font-size: 5vh;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.aside-header {
+    font-size: 6vh;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.home-content h2 {
+  font-size: 3vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.uber {
+  background-color: rgba(39, 83, 143, 0.5);
+  padding: 1.5vh;
+  display: inline-block;
+  margin-left: 42%;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.uber:hover {
+  background-color: rgba(39, 83, 143, 0.7);
+}
+
+.home-content a {
+  color: white;
+}
+
+/* -- Fullscreen: https://css-tricks.com/perfect-full-page-background-image/#article-header-id-2 */
+.bgimage-container {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: 1;
+}
+
+.bgimage-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+.gradient:after {
+  display: block;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  content: '';
+  background-image: linear-gradient(180deg, black 15%, transparent);
+
+}
+
+.header img {
+  padding-top: 20px;
+}
+
+.img-responsive {
+  padding-left: 20px;
+  height: 10vh;
+}
+
+.social-list {
+  padding-right: 2vh;
+}
+
+.social-list img {
+  height: 10vh;
+  opacity: 0.9;
+  padding-left: 20px;
+}
+
+/*Desktop View*/
+
+@media all and (max-width: 500px) {
+  .main-class  {display: none;}
+  .search {display: none;};
+  .footer ul {
+    display: list-item;
+    bottom: 4vw;
+    font-size: 2vw;
+    float: inherit;
+    margin-left: -5vw;
+    }
+}
+
+/*Mobile-View*/
+
+@media all and (min-width: 500px) {
+  .mobile-search {display: none;}
+  .aside-header {
+    display: none;
+    float: inherit;
+
+  }
+}
+
+
+.social-list img:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=less/sourcemaps/style.css.map */
+
+/* stolen from https://getbootstrap.com/examples/sticky-footer/sticky-footer.css*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  font-size: 2vh;
+}
+
+.footer a {
+  color: white;
+  margin: 10px;
+}
+
+.footer:hover li {
+  color: blue;
+}
+
+/* Sidebar */
+
+/*Searchbar*/
+.search input {
+  margin-top: 20px;
+}
+
+.search input[type=text]{
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
+  background-color: transparent;
+  margin-left: 10%;
+}
+
+
+
+input[type=submit] {
+    background: url("img/Citycons_magnify-50_white.svg");
+    border: 0;
+    display: inline;
+    height: 50px;
+    width: 50px;
+    margin-left:40px;
+    opacity: 0.9;
+}
+
+input[type=submit]:hover {
+  opacity: 1;
+}
+
+/* Seminare */
+
+.seminar {
+  text-align: center;
+  color: white;
+}
+
+.seminar-wrapper {
+  margin-bottom: 50px;
+}
+
+.seminar-wrapper h3 {
+  font-size: 20px;
+}
+
+.seminar-wrapper-outer {
+  overflow-y: scroll;
+}
+
+/*Wordpress-Posts*/
+.post-wrapper {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 20px;
+  padding: 1px;
+}
+
+/*.post-bottom {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  margin-top: 10px;
+}*/
+
+.wrapper-wrapper {
+  display: flex;
+  flex-direction: column;
+/*The relative height was the key to prevent the seminar-wrapper-outer from overlapping the post-bottom div. 3 Hours. Halleluja! */
+  height: 90vh;
+}
+
+.post-bottom {
+  align-self: flex-end;
+}
+
+.post-wrapper:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.post-wrapper h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post-wrapper p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.post-wrapper-a {
+  color: black;
+}
+
+.front-page a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.post {
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2vh;
+    overflow-y: scroll;
+    margin-top: -15vh;
+}
+
+.entry {
 }
