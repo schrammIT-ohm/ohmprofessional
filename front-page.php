@@ -49,18 +49,7 @@
 
           </div>
         </header>
-          <Sidebar>
-           <sidebar-frontPage>
-          <ul class="navbar-fixed-pull right">
-            <li><a href="404.php" target="_blank" alt="Module">Module</a></li>
-    <li><a href="404.php" target="_blank" alt="Agil Management Methoden">Agil Management Methoden</a></li>
-    <li><a href="404.php" target="_blank" alt="Design Thinking">Design Thinking</a></li>
-    <li><a href="404.php" target="_blank" alt="Open Innovation">Open Innovation</a></li>
-    <li><a href="404.php" target="_blank" alt="Innovationskommunikation">Innovationskommunikation</a></li>
-</ul>
-</div>
 
-</div>
 
      <main>
        <center>
@@ -92,7 +81,13 @@
       <a href="<?php the_permalink(); ?>">
         <h3 class="seminar"> <?php echo get_the_title(Seminar);  ?></h3>
       </a>
-      <ul class="navbar-fixed-middle-left list-inline">
+      <ul class="navbar-fixed-right list-inline">
+          <li><a href="404.php" target="_blank" alt="Module">Module</a></li>
+          <li><a href="404.php" target="_blank" alt="Agil Management Methoden">Agil Management Methoden</a></li>
+          <li><a href="404.php" target="_blank" alt="Design Thinking">Design Thinking</a></li>
+          <li><a href="404.php" target="_blank" alt="Open Innovation">Open Innovation</a></li>
+          <li><a href="404.php" target="_blank" alt="Innovationskommunikation">Innovationskommunikation</a></li>
+        </ul>
     </div>
 
 
