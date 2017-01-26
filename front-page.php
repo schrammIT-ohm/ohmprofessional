@@ -11,36 +11,6 @@
 <?php get_header(); ?>
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
-<<<<<<< HEAD
-      <div class="home-content">
-        <header>
-          <div class="row">
-            <div class="col-sm-2">
-              <?php
-                // --- Logo
-                // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
-                // otherwise use default Logo from ../img/...
-                $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
-              ?>
-              <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
-            </div>
-            <div class="col-sm-10">
-              <ul class="list-inline pull-right social-icons">
-                <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo
-                get_bloginfo('template_directory')
-                ?>/img/online_social_media_facebook-128.png"
-                alt=""></a></li>
-                <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo
-                get_bloginfo('template_directory')
-                ?>/img/social_media_logo_xing-128.png"
-                alt=""></a></li>
-                <li><a href="https://twitter.com" target="_blank"><img src="<?php echo
-                get_bloginfo('template_directory')
-                ?>/img/1481745744_twitter_online_social_media.png"
-                alt=""></a></li>
-              </ul>
-          </div>
-=======
     <div class="home-content">
       <header class="row header">
           <div class="col-sm-2">
@@ -59,7 +29,6 @@
               <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
             </ul>
           </div>
->>>>>>> fc28647a836e41880d993b2fca6b4aa24a46af5f
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
