@@ -11,6 +11,7 @@
 <?php get_header(); ?>
   <!-- FullScreen Wrapper: content + aside -->
   <div class="fullscreen-wrapper">
+<<<<<<< HEAD
       <div class="home-content">
         <header>
           <div class="row">
@@ -39,12 +40,44 @@
                 alt=""></a></li>
               </ul>
           </div>
+=======
+    <div class="home-content">
+      <header class="row header">
+          <div class="col-sm-2">
+            <?php
+              // --- Logo
+              // if site-icons is defined: Use the uploaded site icon (Admin->Customizer->Website Infos ->Website Icon)
+              // otherwise use default Logo from ../img/...
+              $logoUrl = has_site_icon() ? get_site_icon_url() : get_bloginfo('template_directory') . '/img/ohm-logo.png';
+            ?>
+            <img class="img-responsive" src="<?php echo $logoUrl; ?>" alt="Logo - <?php echo get_bloginfo('name'); ?>">
+          </div>
+          <div class="col-sm-10">
+            <ul class="list-inline pull-right social-list">
+              <li><a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/facebook.svg" alt="" /></a></li>
+              <li><a href="https://www.xing.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/xing.svg" /></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><img src="<?php echo get_bloginfo('template_directory');?>/img/linkedin.svg" /></a></li>
+            </ul>
+          </div>
+>>>>>>> fc28647a836e41880d993b2fca6b4aa24a46af5f
       </header>
       <main>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+        <a href="<?php echo get_bloginfo('template_directory');?>/uber.html">
+        <div class="uber">
+          Über uns
+        </div>
+      </a>
       </main>
-      <footer></footer>
+      <footer class="footer">
+          <ul class="list-inline navbar">
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/impressum.html">Impressum</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/datenschutz.html">Datenschutz</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/AGB.html">AGB</a></li>
+            <li><a href="<?php echo get_bloginfo('template_directory');?>/kontakt.html">Kontakt</a></li>
+          </ul>
+      </footer>
     </div>
 
     <?php // --- Sidebar for FrontPage: https://developer.wordpress.org/reference/functions/get_sidebar/?>
